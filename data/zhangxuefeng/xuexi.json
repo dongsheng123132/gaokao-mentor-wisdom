@@ -9,10 +9,7 @@
       "context": "鼓励高三考生坚持备考",
       "tags": ["高三", "意志力", "坚持", "备考"],
       "target_audience": ["高考生"],
-      "source": {
-        "platform": "抖音",
-        "type": "直播"
-      },
+      "source": { "platform": "抖音", "type": "直播" },
       "sentiment": "encouraging",
       "confidence": "attributed",
       "related_majors": []
@@ -24,12 +21,129 @@
       "context": "强调学习方法和方向选择的重要性",
       "tags": ["学习方法", "战略", "方向", "效率"],
       "target_audience": ["高考生", "大学生"],
-      "source": {
-        "platform": "抖音",
-        "type": "短视频"
-      },
+      "source": { "platform": "抖音", "type": "短视频" },
       "sentiment": "cautionary",
       "confidence": "attributed",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-xuexi-003",
+      "text": "别感动自己。你坐在书桌前12个小时，真正有效学习可能只有4个小时。提高效率比拼时长重要。",
+      "text_en": "Don't just impress yourself. You sit at your desk for 12 hours, but your effective study time might only be 4 hours. Improving efficiency matters more than clocking hours.",
+      "context": "批评低效学习方式",
+      "tags": ["效率", "学习时间", "感动自己", "有效学习"],
+      "target_audience": ["高考生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "cautionary",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-xuexi-004",
+      "text": "数学是拉开差距的科目。数学好的人，选专业范围比别人大一倍。",
+      "text_en": "Math is the subject that creates the biggest gaps. People good at math have twice the range of major choices.",
+      "context": "强调数学成绩的重要性",
+      "tags": ["数学", "差距", "专业选择", "基础"],
+      "target_audience": ["高考生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "neutral",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-xuexi-005",
+      "text": "与其花时间把优势科目从140提到145，不如把劣势科目从80提到100。补短板比拔高更划算。",
+      "text_en": "Rather than spending time raising your best subject from 140 to 145, raise your weakest from 80 to 100. Fixing weaknesses is more cost-effective than maximizing strengths.",
+      "context": "分析高考提分策略",
+      "tags": ["补短板", "提分", "策略", "效率"],
+      "target_audience": ["高考生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "neutral",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-xuexi-006",
+      "text": "考试的时候心态占一半。平时700分的水平，心态崩了只能考600。练心态跟练题一样重要。",
+      "text_en": "Mindset accounts for half of exam performance. A 700-level student with a broken mindset can only score 600. Training your mindset is as important as practicing questions.",
+      "context": "强调考试心态的重要性",
+      "tags": ["心态", "考试", "发挥", "备考"],
+      "target_audience": ["高考生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "cautionary",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-xuexi-007",
+      "text": "模拟考考砸了是好事。高考前把问题暴露出来，总比高考的时候暴露强。",
+      "text_en": "Bombing a practice exam is a good thing. It's better to expose problems before the gaokao than during it.",
+      "context": "安慰模拟考失利的考生",
+      "tags": ["模拟考", "心态", "暴露问题", "积极"],
+      "target_audience": ["高考生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "encouraging",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-xuexi-008",
+      "text": "时间管理就是命运管理。你每天浪费两小时刷手机，一年就是730小时，够你多考50分了。",
+      "text_en": "Time management is destiny management. Wasting two hours daily on your phone means 730 hours a year — enough to boost your score by 50 points.",
+      "context": "警示时间浪费的代价",
+      "tags": ["时间管理", "手机", "自律", "提分"],
+      "target_audience": ["高考生"],
+      "source": { "platform": "抖音", "type": "短视频" },
+      "sentiment": "cautionary",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-xuexi-009",
+      "text": "错题本是最好的复习资料，没有之一。你做过的错题就是你的知识漏洞，反复看它比刷新题有用十倍。",
+      "text_en": "Your error notebook is the best study material — bar none. Your past mistakes are your knowledge gaps; reviewing them is ten times more useful than doing new problems.",
+      "context": "推荐错题本复习法",
+      "tags": ["错题本", "复习", "知识漏洞", "学习方法"],
+      "target_audience": ["高考生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "encouraging",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-xuexi-010",
+      "text": "高三别熬夜。你以为你在拼命，其实你在透支。第二天上课犯困，得不偿失。",
+      "text_en": "Don't stay up late in senior year. You think you're pushing hard, but you're actually depleting yourself. Drowsy in class the next day — it's not worth it.",
+      "context": "提醒考生注意身体健康和作息",
+      "tags": ["熬夜", "健康", "作息", "效率"],
+      "target_audience": ["高考生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "cautionary",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-xuexi-011",
+      "text": "最后一个月别学新知识了，把会的东西巩固到滚瓜烂熟。高考考的是你会的，不是你不会的。",
+      "text_en": "In the last month, stop learning new material — consolidate what you know until it's second nature. The gaokao tests what you know, not what you don't.",
+      "context": "高考最后冲刺阶段建议",
+      "tags": ["最后冲刺", "巩固", "复习策略", "高考"],
+      "target_audience": ["高考生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "encouraging",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-xuexi-012",
+      "text": "到了大学，没人管你了。自律的人上天堂，放纵的人下地狱。大学四年荒废了，比没上大学还惨。",
+      "text_en": "In university, nobody supervises you. Self-disciplined people go to heaven; indulgent ones go to hell. Waste four years of college and you're worse off than if you hadn't gone.",
+      "context": "警示大学生自律的重要性",
+      "tags": ["大学", "自律", "荒废", "学习"],
+      "target_audience": ["大学生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "cautionary",
+      "confidence": "paraphrased",
       "related_majors": []
     }
   ]

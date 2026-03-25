@@ -9,10 +9,7 @@
       "context": "谈论金融专业就业门槛，强调金融行业对家庭背景和人脉资源的依赖",
       "tags": ["金融", "家境", "专业选择", "社会资源"],
       "target_audience": ["高考生", "家长"],
-      "source": {
-        "platform": "抖音",
-        "type": "直播"
-      },
+      "source": { "platform": "抖音", "type": "直播" },
       "sentiment": "cautionary",
       "confidence": "attributed",
       "related_majors": ["金融学", "经济学", "投资学"]
@@ -24,10 +21,7 @@
       "context": "推荐普通家庭考生选择技术类专业",
       "tags": ["计算机", "普通家庭", "改变命运", "性价比"],
       "target_audience": ["高考生", "家长"],
-      "source": {
-        "platform": "抖音",
-        "type": "直播"
-      },
+      "source": { "platform": "抖音", "type": "直播" },
       "sentiment": "encouraging",
       "confidence": "attributed",
       "related_majors": ["计算机科学与技术", "软件工程", "人工智能"]
@@ -39,10 +33,7 @@
       "context": "警告考生慎选就业前景不佳的理科专业",
       "tags": ["生化环材", "天坑专业", "就业", "避坑"],
       "target_audience": ["高考生", "家长"],
-      "source": {
-        "platform": "抖音",
-        "type": "短视频"
-      },
+      "source": { "platform": "抖音", "type": "短视频" },
       "sentiment": "cautionary",
       "confidence": "attributed",
       "related_majors": ["生物科学", "化学", "环境工程", "材料科学"]
@@ -54,10 +45,7 @@
       "context": "分析医学专业的利弊，强调延迟回报",
       "tags": ["医学", "吃苦", "长期回报", "穷人家孩子"],
       "target_audience": ["高考生", "家长"],
-      "source": {
-        "platform": "抖音",
-        "type": "直播"
-      },
+      "source": { "platform": "抖音", "type": "直播" },
       "sentiment": "encouraging",
       "confidence": "attributed",
       "related_majors": ["临床医学", "口腔医学", "中医学"]
@@ -69,10 +57,7 @@
       "context": "批评新闻学专业就业难、薪资低",
       "tags": ["新闻学", "就业", "薪资", "家境"],
       "target_audience": ["高考生", "家长"],
-      "source": {
-        "platform": "抖音",
-        "type": "直播"
-      },
+      "source": { "platform": "抖音", "type": "直播" },
       "sentiment": "cautionary",
       "confidence": "attributed",
       "related_majors": ["新闻学", "传播学", "广播电视学"]
@@ -84,10 +69,7 @@
       "context": "推荐电气工程专业，强调国企就业优势",
       "tags": ["电气工程", "国家电网", "国企", "高薪"],
       "target_audience": ["高考生"],
-      "source": {
-        "platform": "抖音",
-        "type": "直播"
-      },
+      "source": { "platform": "抖音", "type": "直播" },
       "sentiment": "encouraging",
       "confidence": "attributed",
       "related_majors": ["电气工程及其自动化", "电力系统"]
@@ -99,10 +81,7 @@
       "context": "强调法学专业的学校层次对就业的决定性影响",
       "tags": ["法学", "五院四系", "学校层次", "就业"],
       "target_audience": ["高考生", "家长"],
-      "source": {
-        "platform": "抖音",
-        "type": "直播"
-      },
+      "source": { "platform": "抖音", "type": "直播" },
       "sentiment": "cautionary",
       "confidence": "attributed",
       "related_majors": ["法学"]
@@ -114,10 +93,7 @@
       "context": "分析土木工程专业随行业变化的就业前景",
       "tags": ["土木工程", "房地产", "行业变化", "就业"],
       "target_audience": ["高考生"],
-      "source": {
-        "platform": "抖音",
-        "type": "短视频"
-      },
+      "source": { "platform": "抖音", "type": "短视频" },
       "sentiment": "cautionary",
       "confidence": "attributed",
       "related_majors": ["土木工程", "建筑学"]
@@ -129,10 +105,7 @@
       "context": "推荐师范专业的稳定性和生活质量优势",
       "tags": ["师范", "铁饭碗", "稳定", "女生"],
       "target_audience": ["高考生", "家长"],
-      "source": {
-        "platform": "抖音",
-        "type": "直播"
-      },
+      "source": { "platform": "抖音", "type": "直播" },
       "sentiment": "encouraging",
       "confidence": "attributed",
       "related_majors": ["师范教育", "学前教育", "小学教育"]
@@ -144,10 +117,7 @@
       "context": "强调专业选择的重要性，比努力更重要",
       "tags": ["专业选择", "赛道", "努力", "方向"],
       "target_audience": ["高考生", "家长"],
-      "source": {
-        "platform": "抖音",
-        "type": "短视频"
-      },
+      "source": { "platform": "抖音", "type": "短视频" },
       "sentiment": "cautionary",
       "confidence": "attributed",
       "related_majors": []
@@ -159,10 +129,7 @@
       "context": "比较不同层次学校和专业的性价比",
       "tags": ["985", "211", "计算机", "金融", "选择"],
       "target_audience": ["高考生"],
-      "source": {
-        "platform": "抖音",
-        "type": "直播"
-      },
+      "source": { "platform": "抖音", "type": "直播" },
       "sentiment": "neutral",
       "confidence": "attributed",
       "related_majors": ["计算机科学与技术", "金融学"]
@@ -174,13 +141,202 @@
       "context": "为护理专业正名，强调实际收入水平",
       "tags": ["护理", "三甲医院", "收入", "偏见"],
       "target_audience": ["高考生", "家长"],
-      "source": {
-        "platform": "抖音",
-        "type": "直播"
-      },
+      "source": { "platform": "抖音", "type": "直播" },
       "sentiment": "encouraging",
       "confidence": "attributed",
       "related_majors": ["护理学"]
+    },
+    {
+      "id": "zxf-zhuanye-013",
+      "text": "心理学本科就业很难，除非你读到博士。大部分心理学毕业生最后都转行了。",
+      "text_en": "Psychology undergrads have a hard time finding jobs unless you get a PhD. Most end up switching careers.",
+      "context": "分析心理学专业的就业困境",
+      "tags": ["心理学", "就业", "本科", "读博"],
+      "target_audience": ["高考生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "cautionary",
+      "confidence": "attributed",
+      "related_majors": ["心理学", "应用心理学"]
+    },
+    {
+      "id": "zxf-zhuanye-014",
+      "text": "学设计、学艺术，家里没矿真的别碰。投入大、回报慢，还得拼审美天赋。",
+      "text_en": "Don't study design or art unless your family is wealthy. High investment, slow returns, and you need aesthetic talent.",
+      "context": "警示艺术类专业的高投入和不确定回报",
+      "tags": ["艺术", "设计", "投入", "家境", "天赋"],
+      "target_audience": ["高考生", "家长"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "cautionary",
+      "confidence": "attributed",
+      "related_majors": ["视觉传达设计", "环境设计", "美术学"]
+    },
+    {
+      "id": "zxf-zhuanye-015",
+      "text": "小语种曾经很吃香，现在AI翻译这么强，你学四年出来发现机器比你翻得好。",
+      "text_en": "Minor languages used to be popular, but now AI translation is so good that after four years you'll find machines translate better than you.",
+      "context": "分析AI对外语专业的冲击",
+      "tags": ["小语种", "外语", "AI冲击", "就业"],
+      "target_audience": ["高考生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "cautionary",
+      "confidence": "paraphrased",
+      "related_majors": ["日语", "法语", "德语", "西班牙语"]
+    },
+    {
+      "id": "zxf-zhuanye-016",
+      "text": "农学不是种地，但你得接受毕业后大概率去基层的现实。",
+      "text_en": "Agriculture isn't farming, but you have to accept that you'll most likely end up at the grassroots level after graduation.",
+      "context": "客观分析农学专业的就业去向",
+      "tags": ["农学", "基层", "就业", "现实"],
+      "target_audience": ["高考生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "neutral",
+      "confidence": "paraphrased",
+      "related_majors": ["农学", "植物保护", "园艺"]
+    },
+    {
+      "id": "zxf-zhuanye-017",
+      "text": "会计这个专业，以前是铁饭碗，现在AI记账比你快一万倍。基础会计岗位正在消失。",
+      "text_en": "Accounting used to be an iron rice bowl, but now AI bookkeeping is 10,000 times faster than you. Entry-level accounting jobs are disappearing.",
+      "context": "分析AI对会计专业的冲击",
+      "tags": ["会计", "AI冲击", "铁饭碗", "就业"],
+      "target_audience": ["高考生", "家长"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "cautionary",
+      "confidence": "paraphrased",
+      "related_majors": ["会计学", "财务管理", "审计学"]
+    },
+    {
+      "id": "zxf-zhuanye-018",
+      "text": "药学比临床医学好就业，学制短，进药企、进医院药房都行，性价比高。",
+      "text_en": "Pharmacy is easier to find jobs in than clinical medicine — shorter study period, you can work at pharma companies or hospital pharmacies. High cost-effectiveness.",
+      "context": "推荐药学作为医学的替代选择",
+      "tags": ["药学", "就业", "性价比", "医学替代"],
+      "target_audience": ["高考生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "encouraging",
+      "confidence": "paraphrased",
+      "related_majors": ["药学", "临床药学", "药物制剂"]
+    },
+    {
+      "id": "zxf-zhuanye-019",
+      "text": "自动化和人工智能是未来十年最确定的方向，但你数学得好。",
+      "text_en": "Automation and AI are the most certain directions for the next decade, but your math needs to be strong.",
+      "context": "推荐AI相关专业，强调数学基础",
+      "tags": ["自动化", "人工智能", "数学", "未来趋势"],
+      "target_audience": ["高考生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "encouraging",
+      "confidence": "paraphrased",
+      "related_majors": ["自动化", "人工智能", "智能科学与技术"]
+    },
+    {
+      "id": "zxf-zhuanye-020",
+      "text": "想当兵、想当警察，提前批是最好的机会。军校警校出来国家包分配，铁饭碗中的铁饭碗。",
+      "text_en": "If you want to join the military or police, early admission is the best chance. Military and police academies guarantee job placement — the ultimate iron rice bowl.",
+      "context": "推荐军校警校的提前批机会",
+      "tags": ["军校", "警校", "提前批", "铁饭碗", "包分配"],
+      "target_audience": ["高考生", "家长"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "encouraging",
+      "confidence": "paraphrased",
+      "related_majors": ["军事学", "公安学", "刑事科学技术"]
+    },
+    {
+      "id": "zxf-zhuanye-021",
+      "text": "建筑学黄金时代已经过去了。以前建筑老八校出来年薪百万，现在画图到凌晨三点月薪八千。",
+      "text_en": "Architecture's golden era is over. Graduates from the top eight used to earn a million a year; now they draw blueprints until 3 AM for 8,000 a month.",
+      "context": "分析建筑学随房地产下行的就业变化",
+      "tags": ["建筑学", "房地产", "就业", "薪资下降"],
+      "target_audience": ["高考生"],
+      "source": { "platform": "抖音", "type": "短视频" },
+      "sentiment": "cautionary",
+      "confidence": "paraphrased",
+      "related_majors": ["建筑学", "城乡规划", "风景园林"]
+    },
+    {
+      "id": "zxf-zhuanye-022",
+      "text": "汉语言文学，考公务员的神器。你看看公务员岗位，一半以上都要中文系。",
+      "text_en": "Chinese Language & Literature — the ultimate weapon for civil service exams. Look at government positions: more than half require Chinese majors.",
+      "context": "推荐汉语言文学专业的考公优势",
+      "tags": ["汉语言文学", "考公", "公务员", "就业"],
+      "target_audience": ["高考生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "encouraging",
+      "confidence": "paraphrased",
+      "related_majors": ["汉语言文学", "秘书学"]
+    },
+    {
+      "id": "zxf-zhuanye-023",
+      "text": "公共管理本科就是个万金油，啥都学一点、啥都不精通。想进体制还不如直接学法学或中文。",
+      "text_en": "Public Administration undergrad is a jack of all trades — learns a bit of everything, masters nothing. Want to enter government? Study law or Chinese instead.",
+      "context": "批评公共管理专业的本科就业竞争力",
+      "tags": ["公共管理", "万金油", "体制", "就业"],
+      "target_audience": ["高考生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "cautionary",
+      "confidence": "paraphrased",
+      "related_majors": ["公共事业管理", "行政管理"]
+    },
+    {
+      "id": "zxf-zhuanye-024",
+      "text": "电子商务听起来高大上，其实就业面很窄。真正做电商的老板没几个是学电商的。",
+      "text_en": "E-commerce sounds impressive, but the career scope is narrow. Very few successful e-commerce bosses actually studied it.",
+      "context": "批评电子商务专业的实用性",
+      "tags": ["电子商务", "就业", "实用性", "专业陷阱"],
+      "target_audience": ["高考生"],
+      "source": { "platform": "抖音", "type": "短视频" },
+      "sentiment": "cautionary",
+      "confidence": "paraphrased",
+      "related_majors": ["电子商务", "网络与新媒体"]
+    },
+    {
+      "id": "zxf-zhuanye-025",
+      "text": "统计学和数据科学，闷声发大财的专业。互联网要你，金融要你，政府也要你。",
+      "text_en": "Statistics and Data Science — majors that quietly make you rich. Tech wants you, finance wants you, government wants you too.",
+      "context": "推荐统计学的广泛就业面",
+      "tags": ["统计学", "数据科学", "就业面广", "高薪"],
+      "target_audience": ["高考生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "encouraging",
+      "confidence": "paraphrased",
+      "related_majors": ["统计学", "数据科学与大数据技术", "应用统计学"]
+    },
+    {
+      "id": "zxf-zhuanye-026",
+      "text": "兽医其实是个好专业，宠物经济爆发，现在宠物医生比人医还难挂号。",
+      "text_en": "Veterinary medicine is actually a great major. With the pet economy booming, pet doctors are now harder to book than human doctors.",
+      "context": "分析宠物经济对兽医专业的利好",
+      "tags": ["兽医", "宠物经济", "新兴行业", "就业"],
+      "target_audience": ["高考生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "encouraging",
+      "confidence": "paraphrased",
+      "related_majors": ["动物医学", "动物科学"]
+    },
+    {
+      "id": "zxf-zhuanye-027",
+      "text": "体育生别只会练体育，体育+教育、体育+管理才有出路。纯竞技那条路太窄了。",
+      "text_en": "Sports students shouldn't just train — sports + education or sports + management is the way out. Pure athletics is too narrow a path.",
+      "context": "建议体育生拓展复合方向",
+      "tags": ["体育", "复合型", "教育", "就业"],
+      "target_audience": ["高考生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "neutral",
+      "confidence": "paraphrased",
+      "related_majors": ["体育教育", "运动训练", "社会体育指导与管理"]
+    },
+    {
+      "id": "zxf-zhuanye-028",
+      "text": "国际贸易这个专业，听起来高端大气上档次，实际上本科出来就是个外贸业务员，拿着底薪等提成。",
+      "text_en": "International Trade sounds high-end, but undergrads end up as foreign trade clerks on base salary waiting for commissions.",
+      "context": "揭示国际贸易专业的就业现实",
+      "tags": ["国际贸易", "就业现实", "薪资", "专业陷阱"],
+      "target_audience": ["高考生"],
+      "source": { "platform": "抖音", "type": "短视频" },
+      "sentiment": "cautionary",
+      "confidence": "paraphrased",
+      "related_majors": ["国际经济与贸易"]
     }
   ]
 }

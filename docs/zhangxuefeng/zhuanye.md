@@ -2,7 +2,7 @@
 
 > 选什么专业、避什么坑
 
-共 12 条语录
+共 28 条语录
 
 ---
 
@@ -194,5 +194,261 @@
 **来源**: 抖音 / 直播
 **语气**: encouraging
 **可信度**: attributed
+
+---
+
+## 13. zxf-zhuanye-013
+
+> 心理学本科就业很难，除非你读到博士。大部分心理学毕业生最后都转行了。
+
+*Psychology undergrads have a hard time finding jobs unless you get a PhD. Most end up switching careers.*
+
+**背景**: 分析心理学专业的就业困境
+
+**标签**: 心理学, 就业, 本科, 读博
+**相关专业**: 心理学, 应用心理学
+**来源**: 抖音 / 直播
+**语气**: cautionary
+**可信度**: attributed
+
+---
+
+## 14. zxf-zhuanye-014
+
+> 学设计、学艺术，家里没矿真的别碰。投入大、回报慢，还得拼审美天赋。
+
+*Don't study design or art unless your family is wealthy. High investment, slow returns, and you need aesthetic talent.*
+
+**背景**: 警示艺术类专业的高投入和不确定回报
+
+**标签**: 艺术, 设计, 投入, 家境, 天赋
+**相关专业**: 视觉传达设计, 环境设计, 美术学
+**来源**: 抖音 / 直播
+**语气**: cautionary
+**可信度**: attributed
+
+---
+
+## 15. zxf-zhuanye-015
+
+> 小语种曾经很吃香，现在AI翻译这么强，你学四年出来发现机器比你翻得好。
+
+*Minor languages used to be popular, but now AI translation is so good that after four years you'll find machines translate better than you.*
+
+**背景**: 分析AI对外语专业的冲击
+
+**标签**: 小语种, 外语, AI冲击, 就业
+**相关专业**: 日语, 法语, 德语, 西班牙语
+**来源**: 抖音 / 直播
+**语气**: cautionary
+**可信度**: paraphrased
+
+---
+
+## 16. zxf-zhuanye-016
+
+> 农学不是种地，但你得接受毕业后大概率去基层的现实。
+
+*Agriculture isn't farming, but you have to accept that you'll most likely end up at the grassroots level after graduation.*
+
+**背景**: 客观分析农学专业的就业去向
+
+**标签**: 农学, 基层, 就业, 现实
+**相关专业**: 农学, 植物保护, 园艺
+**来源**: 抖音 / 直播
+**语气**: neutral
+**可信度**: paraphrased
+
+---
+
+## 17. zxf-zhuanye-017
+
+> 会计这个专业，以前是铁饭碗，现在AI记账比你快一万倍。基础会计岗位正在消失。
+
+*Accounting used to be an iron rice bowl, but now AI bookkeeping is 10,000 times faster than you. Entry-level accounting jobs are disappearing.*
+
+**背景**: 分析AI对会计专业的冲击
+
+**标签**: 会计, AI冲击, 铁饭碗, 就业
+**相关专业**: 会计学, 财务管理, 审计学
+**来源**: 抖音 / 直播
+**语气**: cautionary
+**可信度**: paraphrased
+
+---
+
+## 18. zxf-zhuanye-018
+
+> 药学比临床医学好就业，学制短，进药企、进医院药房都行，性价比高。
+
+*Pharmacy is easier to find jobs in than clinical medicine — shorter study period, you can work at pharma companies or hospital pharmacies. High cost-effectiveness.*
+
+**背景**: 推荐药学作为医学的替代选择
+
+**标签**: 药学, 就业, 性价比, 医学替代
+**相关专业**: 药学, 临床药学, 药物制剂
+**来源**: 抖音 / 直播
+**语气**: encouraging
+**可信度**: paraphrased
+
+---
+
+## 19. zxf-zhuanye-019
+
+> 自动化和人工智能是未来十年最确定的方向，但你数学得好。
+
+*Automation and AI are the most certain directions for the next decade, but your math needs to be strong.*
+
+**背景**: 推荐AI相关专业，强调数学基础
+
+**标签**: 自动化, 人工智能, 数学, 未来趋势
+**相关专业**: 自动化, 人工智能, 智能科学与技术
+**来源**: 抖音 / 直播
+**语气**: encouraging
+**可信度**: paraphrased
+
+---
+
+## 20. zxf-zhuanye-020
+
+> 想当兵、想当警察，提前批是最好的机会。军校警校出来国家包分配，铁饭碗中的铁饭碗。
+
+*If you want to join the military or police, early admission is the best chance. Military and police academies guarantee job placement — the ultimate iron rice bowl.*
+
+**背景**: 推荐军校警校的提前批机会
+
+**标签**: 军校, 警校, 提前批, 铁饭碗, 包分配
+**相关专业**: 军事学, 公安学, 刑事科学技术
+**来源**: 抖音 / 直播
+**语气**: encouraging
+**可信度**: paraphrased
+
+---
+
+## 21. zxf-zhuanye-021
+
+> 建筑学黄金时代已经过去了。以前建筑老八校出来年薪百万，现在画图到凌晨三点月薪八千。
+
+*Architecture's golden era is over. Graduates from the top eight used to earn a million a year; now they draw blueprints until 3 AM for 8,000 a month.*
+
+**背景**: 分析建筑学随房地产下行的就业变化
+
+**标签**: 建筑学, 房地产, 就业, 薪资下降
+**相关专业**: 建筑学, 城乡规划, 风景园林
+**来源**: 抖音 / 短视频
+**语气**: cautionary
+**可信度**: paraphrased
+
+---
+
+## 22. zxf-zhuanye-022
+
+> 汉语言文学，考公务员的神器。你看看公务员岗位，一半以上都要中文系。
+
+*Chinese Language & Literature — the ultimate weapon for civil service exams. Look at government positions: more than half require Chinese majors.*
+
+**背景**: 推荐汉语言文学专业的考公优势
+
+**标签**: 汉语言文学, 考公, 公务员, 就业
+**相关专业**: 汉语言文学, 秘书学
+**来源**: 抖音 / 直播
+**语气**: encouraging
+**可信度**: paraphrased
+
+---
+
+## 23. zxf-zhuanye-023
+
+> 公共管理本科就是个万金油，啥都学一点、啥都不精通。想进体制还不如直接学法学或中文。
+
+*Public Administration undergrad is a jack of all trades — learns a bit of everything, masters nothing. Want to enter government? Study law or Chinese instead.*
+
+**背景**: 批评公共管理专业的本科就业竞争力
+
+**标签**: 公共管理, 万金油, 体制, 就业
+**相关专业**: 公共事业管理, 行政管理
+**来源**: 抖音 / 直播
+**语气**: cautionary
+**可信度**: paraphrased
+
+---
+
+## 24. zxf-zhuanye-024
+
+> 电子商务听起来高大上，其实就业面很窄。真正做电商的老板没几个是学电商的。
+
+*E-commerce sounds impressive, but the career scope is narrow. Very few successful e-commerce bosses actually studied it.*
+
+**背景**: 批评电子商务专业的实用性
+
+**标签**: 电子商务, 就业, 实用性, 专业陷阱
+**相关专业**: 电子商务, 网络与新媒体
+**来源**: 抖音 / 短视频
+**语气**: cautionary
+**可信度**: paraphrased
+
+---
+
+## 25. zxf-zhuanye-025
+
+> 统计学和数据科学，闷声发大财的专业。互联网要你，金融要你，政府也要你。
+
+*Statistics and Data Science — majors that quietly make you rich. Tech wants you, finance wants you, government wants you too.*
+
+**背景**: 推荐统计学的广泛就业面
+
+**标签**: 统计学, 数据科学, 就业面广, 高薪
+**相关专业**: 统计学, 数据科学与大数据技术, 应用统计学
+**来源**: 抖音 / 直播
+**语气**: encouraging
+**可信度**: paraphrased
+
+---
+
+## 26. zxf-zhuanye-026
+
+> 兽医其实是个好专业，宠物经济爆发，现在宠物医生比人医还难挂号。
+
+*Veterinary medicine is actually a great major. With the pet economy booming, pet doctors are now harder to book than human doctors.*
+
+**背景**: 分析宠物经济对兽医专业的利好
+
+**标签**: 兽医, 宠物经济, 新兴行业, 就业
+**相关专业**: 动物医学, 动物科学
+**来源**: 抖音 / 直播
+**语气**: encouraging
+**可信度**: paraphrased
+
+---
+
+## 27. zxf-zhuanye-027
+
+> 体育生别只会练体育，体育+教育、体育+管理才有出路。纯竞技那条路太窄了。
+
+*Sports students shouldn't just train — sports + education or sports + management is the way out. Pure athletics is too narrow a path.*
+
+**背景**: 建议体育生拓展复合方向
+
+**标签**: 体育, 复合型, 教育, 就业
+**相关专业**: 体育教育, 运动训练, 社会体育指导与管理
+**来源**: 抖音 / 直播
+**语气**: neutral
+**可信度**: paraphrased
+
+---
+
+## 28. zxf-zhuanye-028
+
+> 国际贸易这个专业，听起来高端大气上档次，实际上本科出来就是个外贸业务员，拿着底薪等提成。
+
+*International Trade sounds high-end, but undergrads end up as foreign trade clerks on base salary waiting for commissions.*
+
+**背景**: 揭示国际贸易专业的就业现实
+
+**标签**: 国际贸易, 就业现实, 薪资, 专业陷阱
+**相关专业**: 国际经济与贸易
+**来源**: 抖音 / 短视频
+**语气**: cautionary
+**可信度**: paraphrased
 
 ---

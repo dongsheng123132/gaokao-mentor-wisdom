@@ -9,10 +9,7 @@
       "context": "平行志愿填报的经典策略",
       "tags": ["冲稳保", "平行志愿", "策略", "填报技巧"],
       "target_audience": ["高考生", "家长"],
-      "source": {
-        "platform": "抖音",
-        "type": "直播"
-      },
+      "source": { "platform": "抖音", "type": "直播" },
       "sentiment": "neutral",
       "confidence": "attributed",
       "related_majors": []
@@ -24,12 +21,141 @@
       "context": "强调服从调剂的重要性，避免滑档",
       "tags": ["服从调剂", "滑档", "风险", "填报"],
       "target_audience": ["高考生", "家长"],
-      "source": {
-        "platform": "抖音",
-        "type": "直播"
-      },
+      "source": { "platform": "抖音", "type": "直播" },
       "sentiment": "cautionary",
       "confidence": "attributed",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-zhiyuan-celue-003",
+      "text": "填志愿的优先级：城市 > 学校 > 专业。城市决定平台，学校决定起点，专业决定方向。",
+      "text_en": "Priority for applications: City > School > Major. City determines platform, school determines starting point, major determines direction.",
+      "context": "志愿填报的优先级排序",
+      "tags": ["城市", "学校", "专业", "优先级", "填报"],
+      "target_audience": ["高考生", "家长"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "neutral",
+      "confidence": "attributed",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-zhiyuan-celue-004",
+      "text": "不要浪费你的每一分。多一分能上更好的学校，少一分可能掉一个档次。",
+      "text_en": "Don't waste a single point. One more point could get you into a better school; one less could drop you a tier.",
+      "context": "强调分数利用效率",
+      "tags": ["分数", "效率", "填报", "性价比"],
+      "target_audience": ["高考生", "家长"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "cautionary",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-zhiyuan-celue-005",
+      "text": "平行志愿不是乱填的。要按分数从高到低排列，第一个冲、最后一个保底，中间阶梯式下降。",
+      "text_en": "Parallel preferences aren't filled randomly. Arrange from high to low scores — first one reaches, last one is safety, middle ones descend like a staircase.",
+      "context": "解释平行志愿的正确排序逻辑",
+      "tags": ["平行志愿", "排序", "阶梯", "技巧"],
+      "target_audience": ["高考生", "家长"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "neutral",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-zhiyuan-celue-006",
+      "text": "提前批一定要关注！很多人不知道，提前批不影响后面的正常批次，等于白捡一次机会。",
+      "text_en": "Pay attention to early admission! Many people don't know it doesn't affect subsequent batches — it's basically a free extra chance.",
+      "context": "提醒考生利用提前批机会",
+      "tags": ["提前批", "机会", "策略", "填报"],
+      "target_audience": ["高考生", "家长"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "encouraging",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-zhiyuan-celue-007",
+      "text": "分数够985但只能去冷门专业，你去不去？去！先进去再说，大不了转专业。",
+      "text_en": "Your score qualifies for a 985 but only in an unpopular major — do you go? Yes! Get in first, you can always transfer majors.",
+      "context": "建议先进好学校再想办法转专业",
+      "tags": ["985", "冷门专业", "转专业", "策略"],
+      "target_audience": ["高考生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "encouraging",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-zhiyuan-celue-008",
+      "text": "你在哪个城市上大学，大概率会在那个城市工作。地理锁定效应比你想象的强得多。",
+      "text_en": "Where you attend college is likely where you'll work. The geographic lock-in effect is much stronger than you think.",
+      "context": "强调大学所在城市对未来工作地点的锁定",
+      "tags": ["城市", "地理锁定", "就业", "选择"],
+      "target_audience": ["高考生", "家长"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "cautionary",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-zhiyuan-celue-009",
+      "text": "填志愿是全家的事，不是孩子一个人的事。但最终决定权要给孩子，因为路是他自己走的。",
+      "text_en": "Filling out applications is a family matter, not the child's alone. But the final decision should be the child's — they're the ones walking the path.",
+      "context": "平衡家长参与和考生自主权",
+      "tags": ["全家", "决定权", "沟通", "填报"],
+      "target_audience": ["家长", "高考生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "neutral",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-zhiyuan-celue-010",
+      "text": "看三年的录取数据，不要只看一年的。一年的数据是偶然，三年的数据才是规律。",
+      "text_en": "Look at three years of admission data, not just one. One year's data is coincidence; three years reveals the pattern.",
+      "context": "建议参考多年录取数据",
+      "tags": ["录取数据", "三年", "规律", "参考"],
+      "target_audience": ["高考生", "家长"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "neutral",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-zhiyuan-celue-011",
+      "text": "花几千块找专家咨询值不值？如果能帮你避免选错专业浪费四年，那是最划算的投资。",
+      "text_en": "Is it worth spending thousands on expert consultation? If it helps you avoid choosing the wrong major and wasting four years, it's the best investment you'll make.",
+      "context": "为专业志愿咨询服务正名",
+      "tags": ["咨询", "投资", "专家", "值不值"],
+      "target_audience": ["家长"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "encouraging",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-zhiyuan-celue-012",
+      "text": "志愿填报不是高考出分后才开始的。高二就应该开始了解专业、了解学校、了解政策。",
+      "text_en": "Application planning doesn't start after scores come out. You should begin understanding majors, schools, and policies in your second year of high school.",
+      "context": "强调提前准备志愿填报的重要性",
+      "tags": ["提前准备", "高二", "规划", "时间窗"],
+      "target_audience": ["高考生", "家长"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "cautionary",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-zhiyuan-celue-013",
+      "text": "分数在一本线上下的考生最纠结。我的建议是：宁可去好的二本王牌专业，也不要去差的一本混日子。",
+      "text_en": "Students scoring around the first-tier cutoff are the most conflicted. My advice: better to attend a good second-tier school's flagship program than drift through a bad first-tier school.",
+      "context": "给一本线边缘考生的建议",
+      "tags": ["一本线", "二本", "王牌专业", "选择"],
+      "target_audience": ["高考生", "家长"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "neutral",
+      "confidence": "paraphrased",
       "related_majors": []
     }
   ]

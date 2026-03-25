@@ -7,7 +7,7 @@
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^[a-z]+-[a-z]+-\\d{3}$",
+      "pattern": "^[a-z]+(-[a-z]+)+-\\d{3}$",
       "description": "Unique identifier: mentor_prefix-category-number, e.g. zxf-zhuanye-001"
     },
     "text": {

@@ -9,10 +9,7 @@
       "context": "揭示金融专业毕业生的真实就业情况",
       "tags": ["金融", "银行", "就业现实", "理想与现实"],
       "target_audience": ["高考生", "大学生"],
-      "source": {
-        "platform": "抖音",
-        "type": "直播"
-      },
+      "source": { "platform": "抖音", "type": "直播" },
       "sentiment": "humorous",
       "confidence": "attributed",
       "related_majors": ["金融学", "经济学"]
@@ -24,10 +21,7 @@
       "context": "理性分析好工作的标准",
       "tags": ["好工作", "标准", "现实", "取舍"],
       "target_audience": ["高考生", "大学生"],
-      "source": {
-        "platform": "抖音",
-        "type": "直播"
-      },
+      "source": { "platform": "抖音", "type": "直播" },
       "sentiment": "neutral",
       "confidence": "attributed",
       "related_majors": []
@@ -39,10 +33,7 @@
       "context": "鼓励考公务员和事业编制",
       "tags": ["考公", "编制", "体制内", "35岁", "裁员"],
       "target_audience": ["大学生", "家长"],
-      "source": {
-        "platform": "抖音",
-        "type": "直播"
-      },
+      "source": { "platform": "抖音", "type": "直播" },
       "sentiment": "cautionary",
       "confidence": "attributed",
       "related_majors": []
@@ -54,10 +45,7 @@
       "context": "批评管理学专业本科毕业生的就业尴尬",
       "tags": ["管理学", "就业", "本科", "经验"],
       "target_audience": ["高考生"],
-      "source": {
-        "platform": "抖音",
-        "type": "短视频"
-      },
+      "source": { "platform": "抖音", "type": "短视频" },
       "sentiment": "humorous",
       "confidence": "attributed",
       "related_majors": ["工商管理", "行政管理", "人力资源管理"]
@@ -69,10 +57,7 @@
       "context": "分析互联网行业的年龄危机",
       "tags": ["互联网", "高薪", "35岁", "青春", "年龄危机"],
       "target_audience": ["大学生", "高考生"],
-      "source": {
-        "platform": "抖音",
-        "type": "直播"
-      },
+      "source": { "platform": "抖音", "type": "直播" },
       "sentiment": "cautionary",
       "confidence": "attributed",
       "related_majors": ["计算机科学与技术", "软件工程"]
@@ -84,13 +69,154 @@
       "context": "强调技术类专业的就业保障",
       "tags": ["技术", "就业", "实用", "保障"],
       "target_audience": ["高考生", "家长"],
-      "source": {
-        "platform": "抖音",
-        "type": "直播"
-      },
+      "source": { "platform": "抖音", "type": "直播" },
       "sentiment": "encouraging",
       "confidence": "attributed",
       "related_majors": []
+    },
+    {
+      "id": "zxf-jiuye-007",
+      "text": "第一份工作非常重要，它决定了你在哪个圈子、接触什么人、未来往哪个方向走。",
+      "text_en": "Your first job is extremely important — it determines your circle, the people you meet, and the direction of your future.",
+      "context": "强调第一份工作对职业发展的奠基作用",
+      "tags": ["第一份工作", "职业发展", "圈子", "方向"],
+      "target_audience": ["大学生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "cautionary",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-jiuye-008",
+      "text": "别光看平均薪资，你要看中位数。平均薪资是被马云拉上去的，跟你没关系。",
+      "text_en": "Don't just look at average salaries — look at the median. Average salaries are pulled up by billionaires; it has nothing to do with you.",
+      "context": "揭示专业薪资数据的统计陷阱",
+      "tags": ["薪资", "中位数", "统计陷阱", "现实"],
+      "target_audience": ["高考生", "家长"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "humorous",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-jiuye-009",
+      "text": "国企的好处不是工资高，是工资稳。你旱涝保收，过年有年终奖，退休有保障。",
+      "text_en": "The advantage of state-owned enterprises isn't high pay — it's stable pay. Rain or shine you get paid, with year-end bonuses and retirement security.",
+      "context": "分析国企就业的核心优势",
+      "tags": ["国企", "稳定", "福利", "退休"],
+      "target_audience": ["大学生", "家长"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "encouraging",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-jiuye-010",
+      "text": "私企给你画饼，国企给你发饼。你自己选。",
+      "text_en": "Private companies paint you a pie (make empty promises); state-owned companies actually give you the pie. You choose.",
+      "context": "对比私企和国企的薪酬兑现",
+      "tags": ["私企", "国企", "画饼", "选择"],
+      "target_audience": ["大学生"],
+      "source": { "platform": "抖音", "type": "短视频" },
+      "sentiment": "humorous",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-jiuye-011",
+      "text": "自媒体不是职业，是副业。你见过几个自媒体做了十年还活得好的？",
+      "text_en": "Social media isn't a career — it's a side hustle. How many content creators have you seen thriving after ten years?",
+      "context": "警告年轻人不要把自媒体当主业",
+      "tags": ["自媒体", "自由职业", "稳定性", "风险"],
+      "target_audience": ["大学生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "cautionary",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-jiuye-012",
+      "text": "考研不是逃避就业的借口。你要想清楚，三年后就业环境会不会比现在更好？",
+      "text_en": "Grad school isn't an excuse to avoid employment. Think clearly: will the job market be any better in three years?",
+      "context": "批评盲目考研的延迟就业行为",
+      "tags": ["考研", "延迟就业", "规划", "就业"],
+      "target_audience": ["大学生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "cautionary",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-jiuye-013",
+      "text": "毕业去大城市还是回小城市？有能力去大城市，没关系回小城市。就这么简单。",
+      "text_en": "Go to a big city or return to a small town after graduation? If you're capable, go to the big city. If you have connections, go back to the small town. It's that simple.",
+      "context": "分析大城市和小城市的就业选择",
+      "tags": ["大城市", "小城市", "就业选择", "能力", "关系"],
+      "target_audience": ["大学生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "neutral",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-jiuye-014",
+      "text": "行业有周期，你得在上升期进去，别在下降期接盘。房地产、教培就是前车之鉴。",
+      "text_en": "Industries have cycles. Get in during the upswing, don't be the one holding the bag on the decline. Real estate and tutoring are cautionary tales.",
+      "context": "分析行业周期对就业的影响",
+      "tags": ["行业周期", "房地产", "教培", "择业"],
+      "target_audience": ["高考生", "大学生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "cautionary",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-jiuye-015",
+      "text": "女生就业确实比男生难，这是现实。所以女生更要选对专业，别让专业再给你加一道坎。",
+      "text_en": "It's harder for women to find jobs — that's reality. So women need to choose the right major even more carefully; don't let your major add another hurdle.",
+      "context": "直面性别就业差距的现实",
+      "tags": ["性别", "就业差距", "女生", "专业选择"],
+      "target_audience": ["高考生", "家长"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "cautionary",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-jiuye-016",
+      "text": "起薪高不代表天花板高。有些行业起薪8000封顶一万，有些起薪5000但能到五万。看长远。",
+      "text_en": "High starting salary doesn't mean a high ceiling. Some industries start at 8K but cap at 10K; others start at 5K but can reach 50K. Think long-term.",
+      "context": "分析起薪和职业天花板的关系",
+      "tags": ["起薪", "天花板", "职业发展", "长远"],
+      "target_audience": ["大学生", "高考生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "neutral",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-jiuye-017",
+      "text": "海归也不值钱了。你花两百万出去留学，回来跟国内985抢同一个岗位，人家还嫌你不了解国内市场。",
+      "text_en": "Overseas degrees aren't worth much anymore. You spend 2 million on studying abroad, come back competing with domestic 985 grads for the same job, and they say you don't understand the local market.",
+      "context": "分析海归学历贬值的现象",
+      "tags": ["海归", "留学", "学历贬值", "就业"],
+      "target_audience": ["家长", "高考生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "cautionary",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-jiuye-018",
+      "text": "好的大专比烂的本科强。你学个护理、学个数控，出来就能上手干活，企业抢着要。",
+      "text_en": "A good vocational school beats a bad university. Learn nursing or CNC machining, and you can start working immediately — companies fight to hire you.",
+      "context": "为职业教育正名",
+      "tags": ["大专", "职业教育", "技术", "就业", "本科"],
+      "target_audience": ["高考生", "家长"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "encouraging",
+      "confidence": "paraphrased",
+      "related_majors": ["护理学", "机械设计制造"]
     }
   ]
 }

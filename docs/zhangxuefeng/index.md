@@ -6,10 +6,10 @@
 
 | 分类 | 数量 | 文档 |
 |---|---|---|
-| 💼 就业前景 | 6 | [jiuye.md](jiuye.md) |
-| 💡 人生哲理 | 6 | [rensheng.md](rensheng.md) |
-| 📚 学习建议 | 2 | [xuexi.md](xuexi.md) |
-| 🏫 院校推荐 | 2 | [yuanxiao.md](yuanxiao.md) |
-| 📋 志愿填报策略 | 2 | [zhiyuan-celue.md](zhiyuan-celue.md) |
-| 🎯 专业选择 | 12 | [zhuanye.md](zhuanye.md) |
-| **总计** | **30** | |
+| 💼 就业前景 | 18 | [jiuye.md](jiuye.md) |
+| 💡 人生哲理 | 18 | [rensheng.md](rensheng.md) |
+| 📚 学习建议 | 12 | [xuexi.md](xuexi.md) |
+| 🏫 院校推荐 | 16 | [yuanxiao.md](yuanxiao.md) |
+| 📋 志愿填报策略 | 13 | [zhiyuan-celue.md](zhiyuan-celue.md) |
+| 🎯 专业选择 | 28 | [zhuanye.md](zhuanye.md) |
+| **总计** | **105** | |

@@ -9,10 +9,7 @@
       "context": "强调高考对于普通家庭的重要意义",
       "tags": ["高考", "命运", "普通人", "机会"],
       "target_audience": ["高考生", "家长"],
-      "source": {
-        "platform": "抖音",
-        "type": "直播"
-      },
+      "source": { "platform": "抖音", "type": "直播" },
       "sentiment": "encouraging",
       "confidence": "attributed",
       "related_majors": []
@@ -24,10 +21,7 @@
       "context": "讽刺「读书无用论」，揭示幸存者偏差",
       "tags": ["学历", "名校", "幸存者偏差", "读书无用论"],
       "target_audience": ["高考生", "家长"],
-      "source": {
-        "platform": "抖音",
-        "type": "短视频"
-      },
+      "source": { "platform": "抖音", "type": "短视频" },
       "sentiment": "critical",
       "confidence": "attributed",
       "related_majors": []
@@ -39,10 +33,7 @@
       "context": "谈论教育与社会阶层流动的关系",
       "tags": ["社会分层", "教育", "阶层流动", "机会"],
       "target_audience": ["高考生", "家长"],
-      "source": {
-        "platform": "抖音",
-        "type": "直播"
-      },
+      "source": { "platform": "抖音", "type": "直播" },
       "sentiment": "cautionary",
       "confidence": "attributed",
       "related_majors": []
@@ -54,10 +45,7 @@
       "context": "强调务实择业，先解决生存问题",
       "tags": ["理想", "现实", "务实", "生存"],
       "target_audience": ["高考生", "大学生"],
-      "source": {
-        "platform": "抖音",
-        "type": "直播"
-      },
+      "source": { "platform": "抖音", "type": "直播" },
       "sentiment": "critical",
       "confidence": "attributed",
       "related_majors": []
@@ -69,10 +57,7 @@
       "context": "批评部分家长在志愿填报中的盲目性",
       "tags": ["家长", "认知", "志愿填报", "信息差"],
       "target_audience": ["家长"],
-      "source": {
-        "platform": "抖音",
-        "type": "直播"
-      },
+      "source": { "platform": "抖音", "type": "直播" },
       "sentiment": "critical",
       "confidence": "attributed",
       "related_majors": []
@@ -84,12 +69,153 @@
       "context": "强调高考制度的相对公平性",
       "tags": ["高考", "公平", "机会", "人生"],
       "target_audience": ["高考生"],
-      "source": {
-        "platform": "抖音",
-        "type": "直播"
-      },
+      "source": { "platform": "抖音", "type": "直播" },
       "sentiment": "encouraging",
       "confidence": "attributed",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-rensheng-007",
+      "text": "阶层固化不是说说而已。你爸不是李刚，你就得比别人多努力十倍。",
+      "text_en": "Social stratification isn't just talk. If your dad isn't powerful, you have to work ten times harder than others.",
+      "context": "谈论阶层固化对普通人的影响",
+      "tags": ["阶层固化", "家境", "努力", "普通人"],
+      "target_audience": ["高考生", "家长"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "cautionary",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-rensheng-008",
+      "text": "穷人和富人最大的差距不是钱，是信息差。人家知道的事你根本不知道。",
+      "text_en": "The biggest gap between rich and poor isn't money — it's information asymmetry. They know things you don't even know exist.",
+      "context": "分析信息差对人生选择的影响",
+      "tags": ["信息差", "穷富差距", "认知", "选择"],
+      "target_audience": ["高考生", "家长"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "critical",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-rensheng-009",
+      "text": "你以为是你的努力让你成功了？不，是平台。换个平台，你什么都不是。",
+      "text_en": "You think your effort made you successful? No, it's the platform. Change platforms, and you're nothing.",
+      "context": "强调平台和环境比个人努力更重要",
+      "tags": ["平台", "努力", "环境", "成功"],
+      "target_audience": ["大学生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "critical",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-rensheng-010",
+      "text": "婚姻就是第二次投胎。你嫁错了人或者娶错了人，后半辈子比选错专业还惨。",
+      "text_en": "Marriage is your second birth lottery. Marry the wrong person, and the rest of your life will be worse than choosing the wrong major.",
+      "context": "将婚姻选择与人生选择类比",
+      "tags": ["婚姻", "选择", "人生", "经济"],
+      "target_audience": ["大学生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "cautionary",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-rensheng-011",
+      "text": "普通人输不起。你试错的成本，可能是你全家三年的积蓄。",
+      "text_en": "Ordinary people can't afford to lose. The cost of your mistakes might be your entire family's savings for three years.",
+      "context": "提醒普通家庭做选择要谨慎",
+      "tags": ["普通人", "试错成本", "家庭", "谨慎"],
+      "target_audience": ["高考生", "家长"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "cautionary",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-rensheng-012",
+      "text": "龙生龙、凤生凤，这话虽然难听，但你看看周围就知道了。教育是打破代际传递唯一的机会。",
+      "text_en": "Dragons beget dragons, phoenixes beget phoenixes — harsh but look around you. Education is the only chance to break intergenerational transmission.",
+      "context": "谈论代际传递和教育的破局作用",
+      "tags": ["代际传递", "教育", "阶层", "破局"],
+      "target_audience": ["家长"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "cautionary",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-rensheng-013",
+      "text": "人脉不是你认识谁，是你对谁有用。没有利用价值，谁也不会搭理你。",
+      "text_en": "Connections aren't about who you know — they're about who finds you useful. Without value, nobody will bother with you.",
+      "context": "谈论人脉的本质",
+      "tags": ["人脉", "价值", "社会", "现实"],
+      "target_audience": ["大学生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "critical",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-rensheng-014",
+      "text": "认清自己很重要。你不是天才，大部分人都不是。接受平凡，然后在平凡中找到最优解。",
+      "text_en": "Knowing yourself is crucial. You're not a genius — most people aren't. Accept being ordinary, then find the optimal solution within ordinary.",
+      "context": "鼓励考生认清自身定位",
+      "tags": ["认清自己", "平凡", "定位", "最优解"],
+      "target_audience": ["高考生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "encouraging",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-rensheng-015",
+      "text": "先苦后甜和先甜后苦，你选哪个？年轻的时候吃苦不叫苦，老了吃苦才叫苦。",
+      "text_en": "Bitterness first then sweetness, or sweetness first then bitterness? Hardship when young isn't really hardship; hardship when old truly is.",
+      "context": "鼓励年轻人趁年轻奋斗",
+      "tags": ["先苦后甜", "年轻", "奋斗", "人生"],
+      "target_audience": ["高考生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "encouraging",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-rensheng-016",
+      "text": "北京的孩子考400分上的学校，河南的孩子要考600分。你跟我说公平？",
+      "text_en": "A kid in Beijing gets into a school with 400 points that a kid in Henan needs 600 for. And you talk to me about fairness?",
+      "context": "揭示高考地区不平等现象",
+      "tags": ["地区不平等", "北京", "河南", "高考公平"],
+      "target_audience": ["家长", "高考生"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "critical",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-rensheng-017",
+      "text": "18岁选错了路，你可能要用一辈子来纠正。这就是为什么高考志愿那么重要。",
+      "text_en": "Choose the wrong path at 18, and you might spend your whole life correcting it. That's why college application choices are so important.",
+      "context": "强调高考志愿选择的深远影响",
+      "tags": ["18岁", "选择", "人生", "志愿填报"],
+      "target_audience": ["高考生", "家长"],
+      "source": { "platform": "抖音", "type": "直播" },
+      "sentiment": "cautionary",
+      "confidence": "paraphrased",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-rensheng-018",
+      "text": "这个社会不会因为你善良就对你好。你得有本事，善良才有意义。",
+      "text_en": "Society won't treat you well just because you're kind. You need to be capable first — only then does kindness matter.",
+      "context": "强调能力比品德更现实",
+      "tags": ["善良", "能力", "社会", "现实"],
+      "target_audience": ["高考生", "大学生"],
+      "source": { "platform": "抖音", "type": "短视频" },
+      "sentiment": "critical",
+      "confidence": "paraphrased",
       "related_majors": []
     }
   ]
