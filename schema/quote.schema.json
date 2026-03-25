@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GaokaoMentorQuote",
+  "description": "Schema for a mentor quote entry in the gaokao-mentor-wisdom knowledge base",
+  "type": "object",
+  "required": ["id", "text", "tags", "source", "confidence"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]+-[a-z]+-\\d{3}$",
+      "description": "Unique identifier: mentor_prefix-category-number, e.g. zxf-zhuanye-001"
+    },
+    "text": {
+      "type": "string",
+      "description": "Original Chinese quote text"
+    },
+    "text_en": {
+      "type": "string",
+      "description": "English translation of the quote"
+    },
+    "context": {
+      "type": "string",
+      "description": "Background or context in which the quote was made"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "description": "Relevant tags for search and categorization"
+    },
+    "target_audience": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Who this advice is targeted at"
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "platform": {
+          "type": "string",
+          "description": "Platform where the quote originated"
+        },
+        "date": {
+          "type": "string",
+          "format": "date",
+          "description": "Date of the quote (YYYY-MM-DD)"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["直播", "短视频", "讲座", "访谈", "文章", "书籍"],
+          "description": "Type of content"
+        }
+      },
+      "required": ["type"]
+    },
+    "sentiment": {
+      "type": "string",
+      "enum": ["cautionary", "encouraging", "neutral", "humorous", "critical"],
+      "description": "Tone/sentiment of the quote"
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["verified", "attributed", "paraphrased"],
+      "description": "How confident we are in the attribution"
+    },
+    "related_majors": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Related college majors"
+    },
+    "related_universities": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Related universities"
+    }
+  },
+  "additionalProperties": false
+}

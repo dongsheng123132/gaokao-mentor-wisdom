@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "mentors": [
+    {
+      "id": "zxf",
+      "name_zh": "张雪峰",
+      "name_en": "Zhang Xuefeng",
+      "title": "高考志愿填报咨询师",
+      "bio": "中国最知名的高考志愿填报咨询师，以犀利、接地气的风格闻名。通过短视频和直播平台影响了数百万考生和家长的专业选择。",
+      "bio_en": "China's most renowned gaokao college application consultant, known for his sharp and down-to-earth style. Has influenced millions of students and parents through short videos and livestreams.",
+      "platforms": ["抖音", "bilibili", "微博"],
+      "data_dir": "zhangxuefeng",
+      "quote_count": 0
+    }
+  ]
+}

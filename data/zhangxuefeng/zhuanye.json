@@ -1,0 +1,186 @@
+{
+  "category": "zhuanye",
+  "mentor": "zxf",
+  "quotes": [
+    {
+      "id": "zxf-zhuanye-001",
+      "text": "如果你家境一般，没有任何社会资源，不要学金融。",
+      "text_en": "If your family is average with no connections, don't study finance.",
+      "context": "谈论金融专业就业门槛，强调金融行业对家庭背景和人脉资源的依赖",
+      "tags": ["金融", "家境", "专业选择", "社会资源"],
+      "target_audience": ["高考生", "家长"],
+      "source": {
+        "platform": "抖音",
+        "type": "直播"
+      },
+      "sentiment": "cautionary",
+      "confidence": "attributed",
+      "related_majors": ["金融学", "经济学", "投资学"]
+    },
+    {
+      "id": "zxf-zhuanye-002",
+      "text": "计算机专业是普通家庭孩子改变命运性价比最高的专业。",
+      "text_en": "Computer science is the most cost-effective major for kids from ordinary families to change their destiny.",
+      "context": "推荐普通家庭考生选择技术类专业",
+      "tags": ["计算机", "普通家庭", "改变命运", "性价比"],
+      "target_audience": ["高考生", "家长"],
+      "source": {
+        "platform": "抖音",
+        "type": "直播"
+      },
+      "sentiment": "encouraging",
+      "confidence": "attributed",
+      "related_majors": ["计算机科学与技术", "软件工程", "人工智能"]
+    },
+    {
+      "id": "zxf-zhuanye-003",
+      "text": "生化环材，四大天坑，能不碰就别碰。",
+      "text_en": "Biology, Chemistry, Environmental Science, Materials — the four pitfall majors. Avoid them if you can.",
+      "context": "警告考生慎选就业前景不佳的理科专业",
+      "tags": ["生化环材", "天坑专业", "就业", "避坑"],
+      "target_audience": ["高考生", "家长"],
+      "source": {
+        "platform": "抖音",
+        "type": "短视频"
+      },
+      "sentiment": "cautionary",
+      "confidence": "attributed",
+      "related_majors": ["生物科学", "化学", "环境工程", "材料科学"]
+    },
+    {
+      "id": "zxf-zhuanye-004",
+      "text": "医学专业，穷人家孩子的好选择，但你要能吃苦。学制长、考试多，但一旦熬出来，越老越值钱。",
+      "text_en": "Medicine is a good choice for kids from poor families, but you must be able to endure hardship. Long study period, many exams, but once you make it through, you become more valuable with age.",
+      "context": "分析医学专业的利弊，强调延迟回报",
+      "tags": ["医学", "吃苦", "长期回报", "穷人家孩子"],
+      "target_audience": ["高考生", "家长"],
+      "source": {
+        "platform": "抖音",
+        "type": "直播"
+      },
+      "sentiment": "encouraging",
+      "confidence": "attributed",
+      "related_majors": ["临床医学", "口腔医学", "中医学"]
+    },
+    {
+      "id": "zxf-zhuanye-005",
+      "text": "新闻学，如果你家里没有矿，就别报了。",
+      "text_en": "Journalism — don't apply unless your family is wealthy.",
+      "context": "批评新闻学专业就业难、薪资低",
+      "tags": ["新闻学", "就业", "薪资", "家境"],
+      "target_audience": ["高考生", "家长"],
+      "source": {
+        "platform": "抖音",
+        "type": "直播"
+      },
+      "sentiment": "cautionary",
+      "confidence": "attributed",
+      "related_majors": ["新闻学", "传播学", "广播电视学"]
+    },
+    {
+      "id": "zxf-zhuanye-006",
+      "text": "电气工程，闷声发大财的专业。国家电网、南方电网，你进去了就知道有多香。",
+      "text_en": "Electrical Engineering — a major that quietly makes you rich. Get into State Grid or Southern Power Grid, and you'll know how good it is.",
+      "context": "推荐电气工程专业，强调国企就业优势",
+      "tags": ["电气工程", "国家电网", "国企", "高薪"],
+      "target_audience": ["高考生"],
+      "source": {
+        "platform": "抖音",
+        "type": "直播"
+      },
+      "sentiment": "encouraging",
+      "confidence": "attributed",
+      "related_majors": ["电气工程及其自动化", "电力系统"]
+    },
+    {
+      "id": "zxf-zhuanye-007",
+      "text": "法学，除了五院四系，其他学校的法学，就业很难。",
+      "text_en": "For law, unless you're at the top 'Five Institutes and Four Schools', finding a job is really hard.",
+      "context": "强调法学专业的学校层次对就业的决定性影响",
+      "tags": ["法学", "五院四系", "学校层次", "就业"],
+      "target_audience": ["高考生", "家长"],
+      "source": {
+        "platform": "抖音",
+        "type": "直播"
+      },
+      "sentiment": "cautionary",
+      "confidence": "attributed",
+      "related_majors": ["法学"]
+    },
+    {
+      "id": "zxf-zhuanye-008",
+      "text": "土木工程，以前是香饽饽，现在是大坑。房地产黄金时代过去了。",
+      "text_en": "Civil Engineering used to be a goldmine, now it's a big pit. The golden era of real estate is over.",
+      "context": "分析土木工程专业随行业变化的就业前景",
+      "tags": ["土木工程", "房地产", "行业变化", "就业"],
+      "target_audience": ["高考生"],
+      "source": {
+        "platform": "抖音",
+        "type": "短视频"
+      },
+      "sentiment": "cautionary",
+      "confidence": "attributed",
+      "related_majors": ["土木工程", "建筑学"]
+    },
+    {
+      "id": "zxf-zhuanye-009",
+      "text": "师范专业，铁饭碗中的铁饭碗。女生首选，稳定、体面、有寒暑假。",
+      "text_en": "Teaching is the most secure iron rice bowl. Top choice for girls — stable, respectable, with winter and summer breaks.",
+      "context": "推荐师范专业的稳定性和生活质量优势",
+      "tags": ["师范", "铁饭碗", "稳定", "女生"],
+      "target_audience": ["高考生", "家长"],
+      "source": {
+        "platform": "抖音",
+        "type": "直播"
+      },
+      "sentiment": "encouraging",
+      "confidence": "attributed",
+      "related_majors": ["师范教育", "学前教育", "小学教育"]
+    },
+    {
+      "id": "zxf-zhuanye-010",
+      "text": "选专业就是选赛道。你选错了赛道，再努力也是白搭。",
+      "text_en": "Choosing a major is choosing your track. Pick the wrong track, and no amount of effort will save you.",
+      "context": "强调专业选择的重要性，比努力更重要",
+      "tags": ["专业选择", "赛道", "努力", "方向"],
+      "target_audience": ["高考生", "家长"],
+      "source": {
+        "platform": "抖音",
+        "type": "短视频"
+      },
+      "sentiment": "cautionary",
+      "confidence": "attributed",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-zhuanye-011",
+      "text": "能上985的计算机，不要去211的金融。",
+      "text_en": "If you can get into a 985 university for CS, don't go to a 211 for finance.",
+      "context": "比较不同层次学校和专业的性价比",
+      "tags": ["985", "211", "计算机", "金融", "选择"],
+      "target_audience": ["高考生"],
+      "source": {
+        "platform": "抖音",
+        "type": "直播"
+      },
+      "sentiment": "neutral",
+      "confidence": "attributed",
+      "related_majors": ["计算机科学与技术", "金融学"]
+    },
+    {
+      "id": "zxf-zhuanye-012",
+      "text": "护理专业别看不起，三甲医院的护士，收入不比很多白领差。",
+      "text_en": "Don't look down on nursing — nurses at top-tier hospitals earn no less than many white-collar workers.",
+      "context": "为护理专业正名，强调实际收入水平",
+      "tags": ["护理", "三甲医院", "收入", "偏见"],
+      "target_audience": ["高考生", "家长"],
+      "source": {
+        "platform": "抖音",
+        "type": "直播"
+      },
+      "sentiment": "encouraging",
+      "confidence": "attributed",
+      "related_majors": ["护理学"]
+    }
+  ]
+}

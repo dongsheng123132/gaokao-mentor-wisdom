@@ -1,0 +1,36 @@
+{
+  "category": "xuexi",
+  "mentor": "zxf",
+  "quotes": [
+    {
+      "id": "zxf-xuexi-001",
+      "text": "高三拼的不是智商，是体力和意志力。能坚持到最后的人就赢了。",
+      "text_en": "Senior year isn't about IQ — it's about stamina and willpower. Those who persist to the end win.",
+      "context": "鼓励高三考生坚持备考",
+      "tags": ["高三", "意志力", "坚持", "备考"],
+      "target_audience": ["高考生"],
+      "source": {
+        "platform": "抖音",
+        "type": "直播"
+      },
+      "sentiment": "encouraging",
+      "confidence": "attributed",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-xuexi-002",
+      "text": "不要用战术上的勤奋掩盖战略上的懒惰。方向比努力重要。",
+      "text_en": "Don't use tactical diligence to mask strategic laziness. Direction matters more than effort.",
+      "context": "强调学习方法和方向选择的重要性",
+      "tags": ["学习方法", "战略", "方向", "效率"],
+      "target_audience": ["高考生", "大学生"],
+      "source": {
+        "platform": "抖音",
+        "type": "短视频"
+      },
+      "sentiment": "cautionary",
+      "confidence": "attributed",
+      "related_majors": []
+    }
+  ]
+}

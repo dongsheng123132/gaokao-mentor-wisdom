@@ -1,0 +1,38 @@
+{
+  "category": "yuanxiao",
+  "mentor": "zxf",
+  "quotes": [
+    {
+      "id": "zxf-yuanxiao-001",
+      "text": "能上985就别去211，能上211就别去双非。学校层次就是你的第一张名片。",
+      "text_en": "If you can get into a 985, don't go to a 211. If you can get into a 211, don't go to a non-key university. Your school tier is your first business card.",
+      "context": "强调学校层次对就业的决定性影响",
+      "tags": ["985", "211", "学校层次", "名片"],
+      "target_audience": ["高考生", "家长"],
+      "source": {
+        "platform": "抖音",
+        "type": "直播"
+      },
+      "sentiment": "cautionary",
+      "confidence": "attributed",
+      "related_majors": [],
+      "related_universities": []
+    },
+    {
+      "id": "zxf-yuanxiao-002",
+      "text": "兰州大学，985中的隐藏王者，性价比极高，分数低但实力强。",
+      "text_en": "Lanzhou University — a hidden champion among 985 schools. Extremely cost-effective: low admission scores but strong capabilities.",
+      "context": "推荐被低估的985院校",
+      "tags": ["兰州大学", "985", "性价比", "被低估"],
+      "target_audience": ["高考生"],
+      "source": {
+        "platform": "抖音",
+        "type": "直播"
+      },
+      "sentiment": "encouraging",
+      "confidence": "attributed",
+      "related_majors": [],
+      "related_universities": ["兰州大学"]
+    }
+  ]
+}

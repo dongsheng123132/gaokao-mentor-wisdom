@@ -1,0 +1,47 @@
+{
+  "version": "1.0.0",
+  "categories": [
+    {
+      "id": "zhuanye",
+      "name_zh": "专业选择",
+      "name_en": "Major Selection",
+      "icon": "🎯",
+      "description": "选什么专业、避什么坑"
+    },
+    {
+      "id": "yuanxiao",
+      "name_zh": "院校推荐",
+      "name_en": "University Recommendations",
+      "icon": "🏫",
+      "description": "985/211评价、学校特色"
+    },
+    {
+      "id": "jiuye",
+      "name_zh": "就业前景",
+      "name_en": "Career Prospects",
+      "icon": "💼",
+      "description": "行业分析、薪资现实"
+    },
+    {
+      "id": "rensheng",
+      "name_zh": "人生哲理",
+      "name_en": "Life Philosophy",
+      "icon": "💡",
+      "description": "阶层、价值观、鸡汤"
+    },
+    {
+      "id": "xuexi",
+      "name_zh": "学习建议",
+      "name_en": "Study Advice",
+      "icon": "📚",
+      "description": "学习方法、备考策略"
+    },
+    {
+      "id": "zhiyuan-celue",
+      "name_zh": "志愿填报策略",
+      "name_en": "Application Strategy",
+      "icon": "📋",
+      "description": "冲稳保、平行志愿技巧"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "category": "zhiyuan-celue",
+  "mentor": "zxf",
+  "quotes": [
+    {
+      "id": "zxf-zhiyuan-celue-001",
+      "text": "冲一冲、稳一稳、保一保。前两个志愿冲梦想，中间稳住，最后两个保底。",
+      "text_en": "Reach, match, safety. First two choices reach for your dream, middle ones are steady, last two are safety nets.",
+      "context": "平行志愿填报的经典策略",
+      "tags": ["冲稳保", "平行志愿", "策略", "填报技巧"],
+      "target_audience": ["高考生", "家长"],
+      "source": {
+        "platform": "抖音",
+        "type": "直播"
+      },
+      "sentiment": "neutral",
+      "confidence": "attributed",
+      "related_majors": []
+    },
+    {
+      "id": "zxf-zhiyuan-celue-002",
+      "text": "服从调剂一定要勾！不勾服从调剂，你就是在拿自己的前途赌博。",
+      "text_en": "Always check 'accept adjustment'! Not checking it means you're gambling with your future.",
+      "context": "强调服从调剂的重要性，避免滑档",
+      "tags": ["服从调剂", "滑档", "风险", "填报"],
+      "target_audience": ["高考生", "家长"],
+      "source": {
+        "platform": "抖音",
+        "type": "直播"
+      },
+      "sentiment": "cautionary",
+      "confidence": "attributed",
+      "related_majors": []
+    }
+  ]
+}

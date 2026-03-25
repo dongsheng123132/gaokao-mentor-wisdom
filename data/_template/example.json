@@ -1,0 +1,22 @@
+{
+  "category": "zhuanye",
+  "mentor": "your_mentor_id",
+  "quotes": [
+    {
+      "id": "mid-category-001",
+      "text": "语录原文（中文）",
+      "text_en": "English translation of the quote",
+      "context": "语录的背景和场景",
+      "tags": ["标签1", "标签2"],
+      "target_audience": ["高考生", "家长"],
+      "source": {
+        "platform": "抖音",
+        "date": "2024-01-01",
+        "type": "直播"
+      },
+      "sentiment": "cautionary",
+      "confidence": "attributed",
+      "related_majors": ["专业1"]
+    }
+  ]
+}
