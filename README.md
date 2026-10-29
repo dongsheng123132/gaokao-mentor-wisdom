@@ -1,12 +1,29 @@
 # 张雪峰语录大全 | 高考志愿填报指南 | 专业选择避坑指南
 
 [![语录数量](https://img.shields.io/badge/语录数量-105条-brightgreen)](data/zhangxuefeng/)
-[![更新日期](https://img.shields.io/badge/更新日期-2026--03--25-blue)](.)
+[![Agent Skill](https://img.shields.io/badge/Agent%20Skill-可安装-brightgreen)](SKILL.md)
+[![数据截止](https://img.shields.io/badge/数据截止-2026--03--25-lightgrey)](.)
+[![维护](https://img.shields.io/badge/维护-2026--10--29-blue)](CHANGELOG.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 > 最全的张雪峰高考志愿填报语录知识库 — 结构化 JSON 数据，覆盖专业选择、就业前景、院校推荐、人生哲理、学习建议、志愿填报策略六大分类，支持 AI 应用集成（RAG / Fine-tuning）。
 >
 > The most comprehensive structured knowledge base of Zhang Xuefeng's gaokao wisdom — 105 quotes in JSON format, ready for AI integration.
+
+---
+
+## 安装为 Agent Skill（30 秒）
+
+```bash
+# 任何认 skills 目录 / SKILL.md 的 agent（Claude Code、OpenClaw 等）
+npx skills add dongsheng123132/gaokao-mentor-wisdom
+```
+
+装完直接问：**「河南考生，物理方向，620 分（位次约 15000），普通家庭，想学工科，报什么专业？」**
+
+- 根目录的 [`SKILL.md`](SKILL.md) 写死了五步决策流程、语料检索方法、引用规则和硬边界——不是纯数据，是可执行口径
+- 一条命令会同步装到 60+ 个 agent（Claude Code、Codex、Cursor、DSH…）；DSH 侧落在 `~/.agents/skills/zhangxuefeng-gaokao/`（跨 agent 共享根），装完新开会话即可。想装到 `~/.dsh/skills/` 就手工 clone，目录名用 `zhangxuefeng-gaokao`（与 frontmatter 的 `name` 一致）
+- 只要数据不要 skill：直接用下面的 JSON / JSONL，路径与字段不变
 
 ---
 
@@ -108,21 +125,24 @@
 
 ---
 
-## 数据结构
+## 仓库结构
 
 ```
-data/
-├── mentors.json              # 名师档案
-├── categories.json           # 6 大分类
-├── zhangxuefeng/             # 张雪峰语录（105 条）
-│   ├── zhuanye.json          # 🎯 专业选择（28 条）
-│   ├── jiuye.json            # 💼 就业前景（18 条）
-│   ├── rensheng.json         # 💡 人生哲理（18 条）
-│   ├── yuanxiao.json         # 🏫 院校推荐（16 条）
-│   ├── xuexi.json            # 📚 学习建议（12 条）
-│   └── zhiyuan-celue.json    # 📋 志愿填报策略（13 条）
-└── _template/
-    └── example.json          # 新名师模板
+├── SKILL.md                   # 🤖 Agent Skill 入口（npx skills add 直接装）
+├── CITATION.cff               # 引用信息（GitHub 侧栏「Cite this repository」）
+├── CHANGELOG.md               # 版本记录
+└── data/
+    ├── mentors.json           # 名师档案
+    ├── categories.json        # 6 大分类
+    ├── zhangxuefeng/          # 张雪峰语录（105 条）
+    │   ├── zhuanye.json       # 🎯 专业选择（28 条）
+    │   ├── jiuye.json         # 💼 就业前景（18 条）
+    │   ├── rensheng.json      # 💡 人生哲理（18 条）
+    │   ├── yuanxiao.json      # 🏫 院校推荐（16 条）
+    │   ├── xuexi.json         # 📚 学习建议（12 条）
+    │   └── zhiyuan-celue.json # 📋 志愿填报策略（13 条）
+    └── _template/
+        └── example.json       # 新名师模板
 ```
 
 ## 快速开始
@@ -163,6 +183,7 @@ python scripts/export-training.py
 
 ## 使用场景
 
+- **Agent Skill**：`npx skills add` 一行装成可对话的高考志愿顾问，见上方安装说明
 - **高考生/家长查阅**：按分类浏览张雪峰的专业建议和填报策略
 - **AI Chatbot / RAG**：导入 `exports/rag_chunks.jsonl` 构建高考志愿问答机器人
 - **Fine-tuning**：使用 `exports/fine_tune.jsonl` 微调大语言模型
@@ -185,17 +206,42 @@ python scripts/export-training.py --format fine-tune
 # 输出: exports/fine_tune.jsonl（Q&A 对话对）
 ```
 
+## 谁在用它
+
+本仓的 105 条结构化语料被这些项目直接引用或作为数据源（欢迎提 PR 补充）：
+
+| 项目 | 用法 |
+|---|---|
+| [Eric-Yibo-Shen/zhangxuefeng-skillset](https://github.com/Eric-Yibo-Shen/zhangxuefeng-skillset) | OpenClaw Skill + ClawHub/扣子上架，README 标注本仓为数据来源 |
+| [yhny1001/gaokao-advisor-skills](https://github.com/yhny1001/gaokao-advisor-skills) | Skill 的 `references/` 语料 |
+| [JL-GUO/Agent-Skills-is-The-Future](https://github.com/JL-GUO/Agent-Skills-is-The-Future) | `skills/xuefeng-skill/` 语料 |
+| [Atlas-did/Moirca](https://github.com/Atlas-did/Moirca) | 后端入库 105 条 JSON 作 RAG 语料 |
+| [DCY6/Multimodal-End-to-End-Model-Intelligent-Customer-Service-System](https://github.com/DCY6/Multimodal-End-to-End-Model-Intelligent-Customer-Service-System) | 转成知识库文本 |
+| [guxingzyj-stack/my-first-project](https://github.com/guxingzyj-stack/my-first-project) | 风格库外部参考 |
+
 ## 可信度说明
 
-| Level | 含义 |
-|---|---|
-| `verified` | 有原始视频/文章来源可查证 |
-| `attributed` | 广泛归属于张雪峰，但无法定位具体出处 |
-| `paraphrased` | 经过转述或总结，非原话 |
+| Level | 含义 | 本仓条数 |
+|---|---|---|
+| `verified` | 有原始视频/文章来源可查证 | 0 |
+| `attributed` | 广泛归属于张雪峰，但无法定位具体出处 | 34 |
+| `paraphrased` | 经过转述或总结，非原话 | 71 |
+
+**用之前请明白三件事：**
+
+1. **语料截止 2026-03-25**。张雪峰（1984-11-28 — 2026-03-24）去世次日建仓，本仓收录的是那之前公开流传的言论。此后的政策与就业变化不在语料内，请单独标注。
+2. **本仓只有「判断口径」，没有分数线数据**。分数线、位次、招生计划、选科要求、专业目录一律以省考试院与学校招生章程为准——这里不提供，也不会替你猜。
+3. **引用时按 confidence 说话**：`attributed` 可写「他说过/他的判断是」，`paraphrased` 要写「他的大意是」，两者都不要加引号当逐字原话。每条 id 可在对应 JSON 中回溯。
+
+## 引用本仓
+
+仓库根目录的 [`CITATION.cff`](CITATION.cff) 会在 GitHub 侧栏生成「Cite this repository」。项目引用建议：
+
+> dongsheng123132. (2026). *gaokao-mentor-wisdom: 张雪峰语录大全 · 高考志愿填报知识库* (v5.1.0) [Data set]. MIT License. https://github.com/dongsheng123132/gaokao-mentor-wisdom
 
 ## 贡献
 
-欢迎贡献更多语录！参考 [CONTRIBUTING.md](CONTRIBUTING.md) 和 `data/_template/example.json`。
+欢迎贡献更多语录！参考 [CONTRIBUTING.md](CONTRIBUTING.md) 和 `data/_template/example.json`。若你的项目引用了本仓、或想补充下游项目，直接开 PR 改「谁在用它」一节。
 
 ## License
 

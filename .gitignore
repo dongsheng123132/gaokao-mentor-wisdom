@@ -7,3 +7,6 @@ dist/
 build/
 .vscode/
 .idea/
+
+# 本地历史导出（不进仓库）
+exports/_archive/

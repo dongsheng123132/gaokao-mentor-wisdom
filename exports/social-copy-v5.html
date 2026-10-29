@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>张雪峰说高考 v5 - Social Media Copy</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; background: #f5f5f5; }
+h1 { text-align: center; font-size: 1.5rem; margin-bottom: 0.5rem; }
+.subtitle { text-align: center; color: #888; font-size: 0.9rem; margin-bottom: 2rem; }
+.card { background: #fff; border-radius: 12px; padding: 24px; margin-bottom: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.card h2 { font-size: 1.1rem; margin: 0 0 4px; }
+.platform-tag { display: inline-block; font-size: 0.7rem; padding: 2px 8px; border-radius: 4px; color: #fff; margin-bottom: 12px; }
+.tag-twitter { background: #1da1f2; }
+.tag-jike { background: #ffe411; color: #333 !important; }
+.tag-xhs { background: #fe2c55; }
+.tag-wechat { background: #07c160; }
+.tag-video { background: #07c160; }
+.tag-linkedin { background: #0a66c2; }
+.tag-reddit { background: #ff4500; }
+.tag-hn { background: #f06522; }
+.tag-ph { background: #da552f; }
+.tag-v2ex { background: #333; }
+.tag-juejin { background: #1e80ff; }
+.tag-devto { background: #0a0a0a; }
+.copy-area { background: #fafafa; border: 1px solid #e0e0e0; border-radius: 8px; padding: 16px; white-space: pre-wrap; font-size: 14px; line-height: 1.6; user-select: all; }
+.btn-row { margin-top: 12px; display: flex; gap: 8px; flex-wrap: wrap; }
+button { background: #000; color: #fff; border: none; border-radius: 8px; padding: 10px 20px; font-size: 14px; cursor: pointer; }
+button:active { background: #333; }
+a.publish-link { display: inline-block; background: transparent; border: 1px solid #666; color: #666; border-radius: 8px; padding: 10px 20px; font-size: 14px; text-decoration: none; }
+a.publish-link:hover { background: #f0f0f0; }
+.char-count { font-size: 0.75rem; color: #999; margin-top: 6px; }
+.toast { position: fixed; top: 20px; left: 50%; transform: translateX(-50%); background: #333; color: #fff; padding: 10px 24px; border-radius: 8px; display: none; z-index: 99; font-size: 14px; }
+</style>
+</head>
+<body>
+<h1>张雪峰说高考 v5 推广文案</h1>
+<div class="subtitle">点击复制 → 去对应平台粘贴发布</div>
+<div id="toast" class="toast">已复制到剪贴板</div>
+
+<!-- Twitter/X -->
+<div class="card">
+<h2>Twitter / X</h2>
+<span class="platform-tag tag-twitter">Twitter</span>
+<div class="copy-area" id="twitter">2026高考倒计时，你准备好了吗？
+整理了张雪峰105条志愿填报金句，按6大主题分类，桌面版+手机版PDF免费下载。
+家长必读，别让孩子的分数浪费在错误的选择上。
+https://github.com/dongsheng123132/gaokao-mentor-wisdom/releases/tag/v5.0
+#高考 #志愿填报 #张雪峰</div>
+<div class="char-count">约 196 字符 / 280</div>
+<div class="btn-row">
+<button onclick="copyText('twitter')">复制</button>
+<a class="publish-link" href="https://twitter.com/intent/tweet" target="_blank">去发布</a>
+</div>
+</div>
+
+<!-- 即刻 Jike -->
+<div class="card">
+<h2>即刻</h2>
+<span class="platform-tag tag-jike">Jike</span>
+<div class="copy-area" id="jike">开源了一份《张雪峰说高考》电子书，105条志愿填报金句精选。
+
+做这个的原因：每年高考季都看到家长群里疯转张雪峰的短视频截图，信息碎片化严重。干脆系统整理一下，按6个主题分类，加上虾叔团队的实操点评。
+
+• 6大主题：专业选择、就业前景、人生哲理、院校推荐、学习建议、志愿策略
+• 双版本：A4桌面版 + 手机竖屏版 PDF
+• 附专业速查表（推荐 vs 警示）
+• Python 脚本一键生成，技术栈：Playwright + HTML
+
+用 Claude Code 从 JSON 数据到排版到 PDF 导出全链路完成，代码也开源了。
+
+下载：github.com/dongsheng123132/gaokao-mentor-wisdom/releases/tag/v5.0
+
+适合人群：高考生家长、高中班主任、志愿填报从业者</div>
+<div class="btn-row">
+<button onclick="copyText('jike')">复制</button>
+<a class="publish-link" href="https://web.okjike.com/" target="_blank">去发布</a>
+</div>
+</div>
+
+<!-- 小红书 -->
+<div class="card">
+<h2>小红书</h2>
+<span class="platform-tag tag-xhs">小红书</span>
+<div class="copy-area" id="xhs">高考家长必存！张雪峰105条金句整理成电子书了📚
+
+距离2026高考越来越近，家长们是不是还在到处翻张雪峰的视频截图？
+
+我花了大量时间把张雪峰老师最经典的105条志愿填报语录整理成了一本完整的电子书，免费下载！
+
+📊 6大主题分类
+✅ 专业选择（28条）—— 哪些专业有前途
+✅ 就业前景（18条）—— 毕业后真实薪资
+✅ 人生哲理（18条）—— 扎心但有用的话
+✅ 院校推荐（16条）—— 选学校还是选城市
+✅ 学习建议（12条）—— 高中阶段怎么学
+✅ 志愿策略（13条）—— 冲稳保怎么填
+
+🔧 两个版本
+📐 桌面版 —— A4排版，适合电脑看/打印
+📱 手机版 —— 竖屏优化，微信直接看
+
+💡 每条语录都有：
+· 原文 + 背景注释
+· 情感标签（鼓励/警示/犀利/幽默）
+· 相关专业标注
+· 虾叔团队的实操点评
+
+完全免费，GitHub开源下载👇
+
+#高考 #志愿填报 #张雪峰 #2026高考 #高考家长 #专业选择 #大学 #高考志愿</div>
+<div class="btn-row">
+<button onclick="copyText('xhs')">复制</button>
+<a class="publish-link" href="https://creator.xiaohongshu.com/publish/publish" target="_blank">去发布</a>
+</div>
+</div>
+
+<!-- 朋友圈 -->
+<div class="card">
+<h2>微信朋友圈</h2>
+<span class="platform-tag tag-wechat">朋友圈</span>
+<div class="copy-area" id="wechat">花了不少功夫，把张雪峰老师的105条志愿填报金句整理成了一本电子书，桌面版和手机版都有。
+
+做这件事是因为身边太多家长在高考前几个月才开始临时抱佛脚查专业、查学校，信息又散又乱。这本书按6个主题分类，每条都有背景注释和实操建议，随手翻翻就能快速了解。
+
+免费的，发给有需要的家长朋友。手机版PDF可以直接在微信里看，很方便。
+
+下载地址：github.com/dongsheng123132/gaokao-mentor-wisdom/releases/tag/v5.0
+
+需要一对一志愿填报咨询也可以加我微信 hecare888</div>
+<div class="btn-row">
+<button onclick="copyText('wechat')">复制</button>
+<a class="publish-link" href="#" onclick="alert('请打开微信发朋友圈'); return false;">打开微信</a>
+</div>
+</div>
+
+<!-- 视频号 -->
+<div class="card">
+<h2>视频号</h2>
+<span class="platform-tag tag-video">视频号</span>
+<div class="copy-area" id="video">张雪峰105条金句，免费下载电子书
+
+高考家长必读！我把张雪峰老师最经典的105条志愿填报语录整理成了电子书：
+1. 按6大主题分类（专业/就业/院校/策略...）
+2. 每条都有背景注释和实操点评
+3. 桌面版+手机版两个PDF
+4. 完全免费，GitHub开源下载
+
+让每一分都不浪费，让每个家庭都有方向。
+
+#高考 #志愿填报 #张雪峰 #2026高考 #家长必读</div>
+<div class="btn-row">
+<button onclick="copyText('video')">复制</button>
+<a class="publish-link" href="https://channels.weixin.qq.com/platform/post/create" target="_blank">去发布</a>
+</div>
+</div>
+
+<!-- LinkedIn -->
+<div class="card">
+<h2>LinkedIn</h2>
+<span class="platform-tag tag-linkedin">LinkedIn</span>
+<div class="copy-area" id="linkedin">I open-sourced a curated e-book of 105 career-focused quotes from Zhang Xuefeng, China's most influential college admission advisor.
+
+Every year, ~13 million Chinese students take the Gaokao (national college entrance exam). For most families, choosing the right major and university is one of the most consequential decisions they'll ever make — yet the information landscape is fragmented and overwhelming.
+
+This project organizes Zhang's most impactful advice into 6 themes: major selection, career prospects, life philosophy, university recommendations, study tips, and application strategy. Each quote includes context, sentiment tags, and actionable commentary.
+
+Technical details:
+- Data stored as structured JSON (105 quotes, 6 categories)
+- Python script generates self-contained HTML with embedded assets
+- Playwright converts to PDF in two formats: A4 desktop + mobile-optimized (95mm × 170mm)
+- Built entirely with Claude Code — from data structuring to final PDF export
+
+Free download: https://github.com/dongsheng123132/gaokao-mentor-wisdom/releases/tag/v5.0
+
+#Education #Gaokao #OpenSource #AI #CareerAdvice</div>
+<div class="btn-row">
+<button onclick="copyText('linkedin')">复制</button>
+<a class="publish-link" href="https://www.linkedin.com/feed/?shareActive=true" target="_blank">去发布</a>
+</div>
+</div>
+
+<!-- Reddit -->
+<div class="card">
+<h2>Reddit</h2>
+<span class="platform-tag tag-reddit">Reddit</span>
+<div class="copy-area" id="reddit">Title: I used Claude Code to generate a bilingual e-book (PDF) from structured JSON data — here's the pipeline
+
+Body:
+I had a side project: curating 105 quotes from a popular Chinese education advisor (Zhang Xuefeng) about college major selection and career planning. The data was already structured as JSON files with categories, tags, and sentiment labels.
+
+Instead of manually designing in InDesign or LaTeX, I used Claude Code to build the entire pipeline:
+
+1. Load JSON data → render as semantic HTML with CSS typography
+2. Embed QR code images as base64 (self-contained HTML, no external deps)
+3. Generate two versions: A4 desktop PDF + mobile-optimized PDF (95mm × 170mm)
+4. Playwright handles the HTML → PDF conversion
+
+The interesting part was getting CJK (Chinese) text rendering right in Chromium's PDF engine. Learned the hard way that `background-clip: text` with `-webkit-text-fill-color: transparent` silently drops certain CJK characters in PDF output. Switched to solid colors and the issue disappeared.
+
+The whole thing is open source: github.com/dongsheng123132/gaokao-mentor-wisdom
+
+Happy to answer questions about the CJK PDF rendering gotchas or the Claude Code workflow.</div>
+<div class="btn-row">
+<button onclick="copyText('reddit')">复制</button>
+<a class="publish-link" href="https://www.reddit.com/submit" target="_blank">去发布</a>
+</div>
+</div>
+
+<!-- Hacker News -->
+<div class="card">
+<h2>Hacker News</h2>
+<span class="platform-tag tag-hn">HN</span>
+<div class="copy-area" id="hn">Show HN: JSON-to-PDF e-book generator for CJK content, built with Claude Code
+
+Link: https://github.com/dongsheng123132/gaokao-mentor-wisdom</div>
+<div class="btn-row">
+<button onclick="copyText('hn')">复制</button>
+<a class="publish-link" href="https://news.ycombinator.com/submitlink" target="_blank">去发布</a>
+</div>
+</div>
+
+<!-- V2EX -->
+<div class="card">
+<h2>V2EX</h2>
+<span class="platform-tag tag-v2ex">V2EX</span>
+<div class="copy-area" id="v2ex">标题：开源了一个 JSON → PDF 电子书生成器，做了本张雪峰高考语录
+
+正文：
+最近帮朋友整理张雪峰的志愿填报语录，数据存在 JSON 里（105条，6个分类），需要生成排版好的 PDF。
+
+没用 LaTeX，直接 Python 生成 HTML，Playwright 转 PDF。支持双版本输出：
+- A4 桌面版（210mm × 297mm，viewport 1240px）
+- 手机版（95mm × 170mm，viewport 390px）
+
+踩了一个坑分享：Chromium 的 PDF 渲染对 CJK 字符用 background-clip: text 做渐变文字效果时，部分字会直接消失（比如"高考"的"考"字没了）。改成纯色就好了。
+
+技术栈：Python + Playwright + 纯 CSS 排版
+全部代码开源：github.com/dongsheng123132/gaokao-mentor-wisdom
+
+PDF 下载：github.com/dongsheng123132/gaokao-mentor-wisdom/releases/tag/v5.0
+
+内容本身是给高考家长看的，105条语录 + 虾叔团队的点评，免费的。</div>
+<div class="btn-row">
+<button onclick="copyText('v2ex')">复制</button>
+<a class="publish-link" href="https://www.v2ex.com/new" target="_blank">去发布</a>
+</div>
+</div>
+
+<!-- 掘金 -->
+<div class="card">
+<h2>掘金</h2>
+<span class="platform-tag tag-juejin">掘金</span>
+<div class="copy-area" id="juejin">标题：用 Python + Playwright 实现 JSON 数据到双版本 PDF 电子书的自动化生成
+
+摘要：
+分享一个实战项目：如何用 Python 将结构化 JSON 数据生成为排版精美的 PDF 电子书，同时输出 A4 桌面版和手机版两个版本。技术栈包括 HTML/CSS 排版、Base64 图片嵌入、Playwright PDF 导出，以及 CJK 字符渲染的踩坑经验。全部代码开源。
+
+标签：Python, Playwright, PDF, 开源, Claude Code</div>
+<div class="btn-row">
+<button onclick="copyText('juejin')">复制</button>
+<a class="publish-link" href="https://juejin.cn/editor/drafts/new" target="_blank">去发布</a>
+</div>
+</div>
+
+<!-- Dev.to -->
+<div class="card">
+<h2>Dev.to</h2>
+<span class="platform-tag tag-devto">Dev.to</span>
+<div class="copy-area" id="devto">Title: Building a JSON-to-PDF E-book Generator with Python and Playwright (CJK Edition)
+
+Summary:
+How I turned 105 structured JSON entries into a professionally typeset PDF e-book — with automatic dual-format output (A4 desktop + mobile-optimized). Includes lessons learned about CJK text rendering in Chromium's PDF engine and why background-clip:text silently eats Chinese characters.
+
+Tags: python, playwright, pdf, opensource</div>
+<div class="btn-row">
+<button onclick="copyText('devto')">复制</button>
+<a class="publish-link" href="https://dev.to/new" target="_blank">去发布</a>
+</div>
+</div>
+
+<!-- 微博 -->
+<div class="card">
+<h2>微博</h2>
+<span class="platform-tag" style="background:#e6162d;">微博</span>
+<div class="copy-area" id="weibo">张雪峰105条志愿填报金句，整理成电子书了，免费下载！
+
+按6大主题分类：专业选择、就业前景、人生哲理、院校推荐、学习建议、志愿策略。每条都有背景注释+虾叔团队的实操点评。
+
+桌面版和手机版PDF都有，手机版可以直接在微信里看。
+
+GitHub免费下载👉 github.com/dongsheng123132/gaokao-mentor-wisdom/releases/tag/v5.0
+
+志愿咨询加微信 hecare888
+
+#高考# #志愿填报# #张雪峰# #2026高考#</div>
+<div class="btn-row">
+<button onclick="copyText('weibo')">复制</button>
+<a class="publish-link" href="https://weibo.com" target="_blank">去发布</a>
+</div>
+</div>
+
+<!-- 知乎 -->
+<div class="card">
+<h2>知乎</h2>
+<span class="platform-tag" style="background:#0066ff;">知乎</span>
+<div class="copy-area" id="zhihu">张雪峰的志愿填报建议，我整理了105条做成了免费电子书
+
+每年高考前后，家长群和短视频平台都会疯转张雪峰老师的各种语录截图。但碎片化的信息不好系统消化，经常是看了后面忘了前面。
+
+所以我花时间把张雪峰老师公开内容中最有代表性的105条语录做了系统整理，按6个主题分类，做成了可以随手翻阅的电子书：
+
+1. 专业选择（28条）：哪些专业有前途，哪些要谨慎
+2. 就业前景（18条）：毕业后的真实就业情况
+3. 人生哲理（18条）：扎心但实用的人生道理
+4. 院校推荐（16条）：选学校还是选城市的考量
+5. 学习建议（12条）：高中阶段的学习方法
+6. 志愿策略（13条）：冲、稳、保怎么填
+
+每条语录都附有背景说明和虾叔团队的实操点评建议。另外附了一个专业速查表，按语录中正面提及和建议谨慎的分类汇总。
+
+两个版本：A4桌面版（适合电脑看/打印）和手机版（竖屏优化，微信直接看）。
+
+完全免费，GitHub开源下载：github.com/dongsheng123132/gaokao-mentor-wisdom/releases/tag/v5.0
+
+如果需要一对一的志愿填报咨询，可以加微信 hecare888。</div>
+<div class="btn-row">
+<button onclick="copyText('zhihu')">复制</button>
+<a class="publish-link" href="https://www.zhihu.com/creator" target="_blank">去发布</a>
+</div>
+</div>
+
+<!-- B站 -->
+<div class="card">
+<h2>B站 / 哔哩哔哩</h2>
+<span class="platform-tag" style="background:#fb7299;">B站</span>
+<div class="copy-area" id="bilibili">张雪峰105条志愿填报金句 免费电子书来了！
+
+高考家长必存的资料！我把张雪峰老师最经典的105条志愿填报语录整理成了电子书，按专业选择、就业前景、院校推荐等6大主题分类。
+
+桌面版和手机版PDF都有，完全免费下载。
+
+GitHub下载：github.com/dongsheng123132/gaokao-mentor-wisdom/releases/tag/v5.0
+志愿咨询微信：hecare888
+
+#高考 #志愿填报 #张雪峰 #2026高考 #大学专业</div>
+<div class="btn-row">
+<button onclick="copyText('bilibili')">复制</button>
+<a class="publish-link" href="https://member.bilibili.com/platform/upload/text/edit" target="_blank">去发布</a>
+</div>
+</div>
+
+<script>
+function copyText(id) {
+  navigator.clipboard.writeText(document.getElementById(id).innerText);
+  const t = document.getElementById('toast');
+  t.style.display = 'block';
+  setTimeout(() => t.style.display = 'none', 1500);
+}
+</script>
+</body>
+</html>

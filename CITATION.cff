@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "如果使用本数据集，请按以下信息引用 / If you use this dataset, please cite it as below."
+title: "gaokao-mentor-wisdom: 张雪峰语录大全 · 高考志愿填报知识库"
+abstract: >-
+  105 条张雪峰公开言论的结构化语录，分为专业选择、就业前景、人生哲理、院校推荐、学习建议、志愿填报策略六类；
+  每条含中英文双语、标签、来源、情感与可信度（verified/attributed/paraphrased）标注，
+  可直接用于 RAG、微调与 Agent Skill（仓库根目录 SKILL.md）。
+authors:
+  - name: "dongsheng123132"
+    website: "https://github.com/dongsheng123132"
+version: "5.1.0"
+date-released: "2026-10-29"
+license: MIT
+repository-code: "https://github.com/dongsheng123132/gaokao-mentor-wisdom"
+url: "https://github.com/dongsheng123132/gaokao-mentor-wisdom"
+keywords:
+  - 张雪峰
+  - 高考志愿
+  - 高考
+  - gaokao
+  - 语录
+  - 数据集
+  - agent-skill
