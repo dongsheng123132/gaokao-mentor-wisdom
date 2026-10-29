@@ -2,6 +2,7 @@
 
 [![语录数量](https://img.shields.io/badge/语录数量-105条-brightgreen)](data/zhangxuefeng/)
 [![Agent Skill](https://img.shields.io/badge/Agent%20Skill-可安装-brightgreen)](SKILL.md)
+[![validate](https://github.com/dongsheng123132/gaokao-mentor-wisdom/actions/workflows/validate.yml/badge.svg)](https://github.com/dongsheng123132/gaokao-mentor-wisdom/actions/workflows/validate.yml)
 [![数据截止](https://img.shields.io/badge/数据截止-2026--03--25-lightgrey)](.)
 [![维护](https://img.shields.io/badge/维护-2026--10--29-blue)](CHANGELOG.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -24,6 +25,8 @@ npx skills add dongsheng123132/gaokao-mentor-wisdom
 - 根目录的 [`SKILL.md`](SKILL.md) 写死了五步决策流程、语料检索方法、引用规则和硬边界——不是纯数据，是可执行口径
 - 一条命令会同步装到 60+ 个 agent（Claude Code、Codex、Cursor、DSH…）；DSH 侧落在 `~/.agents/skills/zhangxuefeng-gaokao/`（跨 agent 共享根），装完新开会话即可。想装到 `~/.dsh/skills/` 就手工 clone，目录名用 `zhangxuefeng-gaokao`（与 frontmatter 的 `name` 一致）
 - 只要数据不要 skill：直接用下面的 JSON / JSONL，路径与字段不变
+
+**网页版（免安装）**：<https://dongsheng123132.github.io/gaokao-mentor-wisdom/> —— 105 条语录可直接搜索、按分类筛选，每条带出处与可信度标注。给 AI 抓取的入口是 [`llms.txt`](llms.txt)。
 
 ---
 
@@ -129,8 +132,11 @@ npx skills add dongsheng123132/gaokao-mentor-wisdom
 
 ```
 ├── SKILL.md                   # 🤖 Agent Skill 入口（npx skills add 直接装）
+├── llms.txt                   # AI 检索入口（llms.txt 约定）
 ├── CITATION.cff               # 引用信息（GitHub 侧栏「Cite this repository」）
 ├── CHANGELOG.md               # 版本记录
+├── .github/workflows/         # CI：schema 校验 + docs/exports 同步检查
+├── docs/COMPARISON.md         # 与下游 skillset 的口径对照（谁改了什么）
 └── data/
     ├── mentors.json           # 名师档案
     ├── categories.json        # 6 大分类
@@ -184,6 +190,7 @@ python scripts/export-training.py
 ## 使用场景
 
 - **Agent Skill**：`npx skills add` 一行装成可对话的高考志愿顾问，见上方安装说明
+- **网页版**：<https://dongsheng123132.github.io/gaokao-mentor-wisdom/> 直接搜索/筛选 105 条，手机也能看
 - **高考生/家长查阅**：按分类浏览张雪峰的专业建议和填报策略
 - **AI Chatbot / RAG**：导入 `exports/rag_chunks.jsonl` 构建高考志愿问答机器人
 - **Fine-tuning**：使用 `exports/fine_tune.jsonl` 微调大语言模型
@@ -212,12 +219,14 @@ python scripts/export-training.py --format fine-tune
 
 | 项目 | 用法 |
 |---|---|
-| [Eric-Yibo-Shen/zhangxuefeng-skillset](https://github.com/Eric-Yibo-Shen/zhangxuefeng-skillset) | OpenClaw Skill + ClawHub/扣子上架，README 标注本仓为数据来源 |
+| [Eric-Yibo-Shen/zhangxuefeng-skillset](https://github.com/Eric-Yibo-Shen/zhangxuefeng-skillset) | 决策框架 Skill（ClawHub/扣子上架）；README 说明六大分类框架参考本仓，知识内容为社区独立重述（CC BY 4.0） |
 | [yhny1001/gaokao-advisor-skills](https://github.com/yhny1001/gaokao-advisor-skills) | Skill 的 `references/` 语料 |
 | [JL-GUO/Agent-Skills-is-The-Future](https://github.com/JL-GUO/Agent-Skills-is-The-Future) | `skills/xuefeng-skill/` 语料 |
 | [Atlas-did/Moirca](https://github.com/Atlas-did/Moirca) | 后端入库 105 条 JSON 作 RAG 语料 |
 | [DCY6/Multimodal-End-to-End-Model-Intelligent-Customer-Service-System](https://github.com/DCY6/Multimodal-End-to-End-Model-Intelligent-Customer-Service-System) | 转成知识库文本 |
 | [guxingzyj-stack/my-first-project](https://github.com/guxingzyj-stack/my-first-project) | 风格库外部参考 |
+
+同赛道的其他项目（女娲 skill 版、ASR 语料源等）和**口径差异**见 [docs/COMPARISON.md](docs/COMPARISON.md)。
 
 ## 可信度说明
 

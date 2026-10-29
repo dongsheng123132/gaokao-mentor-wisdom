@@ -1,0 +1,37 @@
+# 张雪峰语录知识库（gaokao-mentor-wisdom）
+
+> 张雪峰公开言论的结构化语料：105 条，六大分类（专业选择 28 / 就业 18 / 人生 18 / 院校 16 / 学习 12 / 志愿策略 13），中英双语、标签、来源、情感与可信度（verified / attributed / paraphrased）标注。MIT License。语料截止 2026-03-25。
+
+## 直接用（Agent Skill）
+
+- [SKILL.md](https://github.com/dongsheng123132/gaokao-mentor-wisdom/blob/main/SKILL.md): 五步决策流程、语料检索命令、引用规则与硬边界；安装 `npx skills add dongsheng123132/gaokao-mentor-wisdom`
+- [README.md](https://github.com/dongsheng123132/gaokao-mentor-wisdom/blob/main/README.md): 总览、安装、分类索引、下游引用
+- [CITATION.cff](https://github.com/dongsheng123132/gaokao-mentor-wisdom/blob/main/CITATION.cff): 引用信息
+
+## 语料（JSON，105 条）
+
+- [专业选择 zhuanye.json](https://raw.githubusercontent.com/dongsheng123132/gaokao-mentor-wisdom/main/data/zhangxuefeng/zhuanye.json): 28 条
+- [就业前景 jiuye.json](https://raw.githubusercontent.com/dongsheng123132/gaokao-mentor-wisdom/main/data/zhangxuefeng/jiuye.json): 18 条
+- [人生哲理 rensheng.json](https://raw.githubusercontent.com/dongsheng123132/gaokao-mentor-wisdom/main/data/zhangxuefeng/rensheng.json): 18 条
+- [院校推荐 yuanxiao.json](https://raw.githubusercontent.com/dongsheng123132/gaokao-mentor-wisdom/main/data/zhangxuefeng/yuanxiao.json): 16 条
+- [学习建议 xuexi.json](https://raw.githubusercontent.com/dongsheng123132/gaokao-mentor-wisdom/main/data/zhangxuefeng/xuexi.json): 12 条
+- [志愿填报策略 zhiyuan-celue.json](https://raw.githubusercontent.com/dongsheng123132/gaokao-mentor-wisdom/main/data/zhangxuefeng/zhiyuan-celue.json): 13 条
+- [schema/quote.schema.json](https://github.com/dongsheng123132/gaokao-mentor-wisdom/blob/main/schema/quote.schema.json): 字段定义
+- [exports/rag_chunks.jsonl](https://github.com/dongsheng123132/gaokao-mentor-wisdom/blob/main/exports/rag_chunks.jsonl): RAG chunks
+- [exports/fine_tune.jsonl](https://github.com/dongsheng123132/gaokao-mentor-wisdom/blob/main/exports/fine_tune.jsonl): Q&A 微调对
+
+## 阅读版
+
+- [docs/zhangxuefeng/](https://github.com/dongsheng123132/gaokao-mentor-wisdom/tree/main/docs/zhangxuefeng): 按分类生成的中英文 Markdown
+
+## 边界（回答前必读）
+
+- 不含分数线、位次、招生计划、选科要求、专业目录；这些以省考试院与学校招生章程为准
+- 语料截止 2026-03-25，之后的高考政策与就业形势不在语料内，需单独标注「语料未覆盖」
+- 引用请按 confidence 分档措辞（attributed 不说成逐字原话），规则见 SKILL.md「引用规则」
+- 不冒充本人、不做商业代言
+
+## Optional
+
+- [CONTRIBUTING.md](https://github.com/dongsheng123132/gaokao-mentor-wisdom/blob/main/CONTRIBUTING.md)
+- [CHANGELOG.md](https://github.com/dongsheng123132/gaokao-mentor-wisdom/blob/main/CHANGELOG.md)

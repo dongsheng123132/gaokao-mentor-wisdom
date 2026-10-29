@@ -1,0 +1,50 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  data:
+    name: 数据校验
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 校验 105 条语料符合 schema
+        run: python3 scripts/validate.py
+
+      - name: docs/ 与 data/ 是否同步
+        run: |
+          python3 scripts/json2md.py
+          if ! git diff --quiet -- docs/; then
+            echo "::error::docs/ 与 data/ 不同步，请跑 python3 scripts/json2md.py 并提交结果"
+            git diff --stat -- docs/
+            exit 1
+          fi
+
+      - name: site/ 是否同步
+        run: |
+          python3 scripts/build-site.py
+          if ! git diff --quiet -- site/; then
+            echo "::error::site/ 与 data/ 不同步，请跑 python3 scripts/build-site.py 并提交结果"
+            git diff --stat -- site/
+            exit 1
+          fi
+
+      - name: exports/ 是否同步
+        run: |
+          python3 scripts/export-training.py
+          python3 scripts/export-training.py --format fine-tune
+          if ! git diff --quiet -- exports/; then
+            echo "::error::exports/ 与 data/ 不同步，请跑 python3 scripts/export-training.py 并提交结果"
+            git diff --stat -- exports/
+            exit 1
+          fi

@@ -10,3 +10,6 @@ build/
 
 # 本地历史导出（不进仓库）
 exports/_archive/
+
+# 本地截图/临时
+.tmp-chrome/
