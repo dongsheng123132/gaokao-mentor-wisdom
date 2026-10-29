@@ -285,6 +285,14 @@ def build():
 <meta property="og:title" content="张雪峰语录大全 · 高考志愿填报指南">
 <meta property="og:description" content="{total} 条结构化语料，含出处与可信度标注，MIT 开源。">
 <meta property="og:type" content="website">
+<meta property="og:image" content="https://dongsheng123132.github.io/gaokao-mentor-wisdom/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://dongsheng123132.github.io/gaokao-mentor-wisdom/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="张雪峰语录大全 · 高考志愿填报指南">
+<meta name="twitter:image" content="https://dongsheng123132.github.io/gaokao-mentor-wisdom/og.png">
+<link rel="canonical" href="https://dongsheng123132.github.io/gaokao-mentor-wisdom/">
 <style>{CSS}</style>
 </head>
 <body>

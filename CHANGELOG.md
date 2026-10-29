@@ -1,5 +1,10 @@
 # Changelog
 
+## v5.2.1 — 2026-10-29
+
+- 网页版补社交分享卡 `site/og.png`（源文件 `site/og-card.html`，含生成命令）：`og:image` / `twitter:card` / `canonical`，微信、微博、X 分享时有预览图
+- 仓库 homepage 指向网页版（GitHub 侧栏「Website」可直接点开）
+
 ## v5.2.0 — 2026-10-29
 
 网页版 + AI 检索入口 + CI，数据本身不变（仍为 105 条，截止 2026-03-25）。

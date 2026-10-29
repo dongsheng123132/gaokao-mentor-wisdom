@@ -8,7 +8,7 @@ abstract: >-
 authors:
   - name: "dongsheng123132"
     website: "https://github.com/dongsheng123132"
-version: "5.2.0"
+version: "5.2.1"
 date-released: "2026-10-29"
 license: MIT
 repository-code: "https://github.com/dongsheng123132/gaokao-mentor-wisdom"
